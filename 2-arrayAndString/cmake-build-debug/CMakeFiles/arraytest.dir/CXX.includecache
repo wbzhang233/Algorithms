@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/Algorithms/2-arrayAndString/2-spiralOrder.h
+../commonHeaders.h
+D:/Code/Algorithms/commonHeaders.h
+
+D:/Code/Algorithms/2-arrayAndString/arrayTest.cpp
+../commonHeaders.h
+D:/Code/Algorithms/commonHeaders.h
+2-spiralOrder.h
+D:/Code/Algorithms/2-arrayAndString/2-spiralOrder.h
+
+D:/Code/Algorithms/commonHeaders.h
+iostream
+-
+vector
+-
+algorithm
+-
+map
+-
+cmath
+-
+unordered_set
+-
+unordered_map
+-
+

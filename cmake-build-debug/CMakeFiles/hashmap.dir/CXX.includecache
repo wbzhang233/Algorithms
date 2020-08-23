@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/Algorithms/3-Hashmap/hashmap.cpp
+../commonHeaders.h
+D:/Code/Algorithms/commonHeaders.h
+unordered_map
+-
+unordered_set
+-
+
+D:/Code/Algorithms/commonHeaders.h
+iostream
+-
+vector
+-
+algorithm
+-
+map
+-
+cmath
+-
+unordered_set
+-
+unordered_map
+-
+

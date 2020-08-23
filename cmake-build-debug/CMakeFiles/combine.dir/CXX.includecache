@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/Algorithms/7-Backtrack/combine.cpp
+../commonHeaders.h
+D:/Code/Algorithms/commonHeaders.h
+
+D:/Code/Algorithms/commonHeaders.h
+iostream
+-
+vector
+-
+algorithm
+-
+map
+-
+cmath
+-
+unordered_set
+-
+unordered_map
+-
+queue
+-
+

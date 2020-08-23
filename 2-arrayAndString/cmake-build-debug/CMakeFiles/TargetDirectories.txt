@@ -1,0 +1,5 @@
+D:/Code/Algorithms/2-arrayAndString/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Code/Algorithms/2-arrayAndString/cmake-build-debug/CMakeFiles/array2String.dir
+D:/Code/Algorithms/2-arrayAndString/cmake-build-debug/CMakeFiles/stringtest.dir
+D:/Code/Algorithms/2-arrayAndString/cmake-build-debug/CMakeFiles/arraytest.dir
+D:/Code/Algorithms/2-arrayAndString/cmake-build-debug/CMakeFiles/edit_cache.dir
