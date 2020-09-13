@@ -56,27 +56,27 @@ include CMakeFiles/palindromStr.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/palindromStr.dir/flags.make
 
-CMakeFiles/palindromStr.dir/palindromStr.cpp.obj: CMakeFiles/palindromStr.dir/flags.make
-CMakeFiles/palindromStr.dir/palindromStr.cpp.obj: ../palindromStr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/palindromStr.dir/palindromStr.cpp.obj"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\palindromStr.dir\palindromStr.cpp.obj -c D:\Code\Algorithms\palindromStr.cpp
+CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj: CMakeFiles/palindromStr.dir/flags.make
+CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj: ../12-dp/palindromStr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\palindromStr.dir\12-dp\palindromStr.cpp.obj -c D:\Code\Algorithms\12-dp\palindromStr.cpp
 
-CMakeFiles/palindromStr.dir/palindromStr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/palindromStr.dir/palindromStr.cpp.i"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\palindromStr.cpp > CMakeFiles\palindromStr.dir\palindromStr.cpp.i
+CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.i"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\12-dp\palindromStr.cpp > CMakeFiles\palindromStr.dir\12-dp\palindromStr.cpp.i
 
-CMakeFiles/palindromStr.dir/palindromStr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/palindromStr.dir/palindromStr.cpp.s"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\palindromStr.cpp -o CMakeFiles\palindromStr.dir\palindromStr.cpp.s
+CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.s"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\12-dp\palindromStr.cpp -o CMakeFiles\palindromStr.dir\12-dp\palindromStr.cpp.s
 
 # Object files for target palindromStr
 palindromStr_OBJECTS = \
-"CMakeFiles/palindromStr.dir/palindromStr.cpp.obj"
+"CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj"
 
 # External object files for target palindromStr
 palindromStr_EXTERNAL_OBJECTS =
 
-palindromStr.exe: CMakeFiles/palindromStr.dir/palindromStr.cpp.obj
+palindromStr.exe: CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj
 palindromStr.exe: CMakeFiles/palindromStr.dir/build.make
 palindromStr.exe: CMakeFiles/palindromStr.dir/linklibs.rsp
 palindromStr.exe: CMakeFiles/palindromStr.dir/objects1.rsp

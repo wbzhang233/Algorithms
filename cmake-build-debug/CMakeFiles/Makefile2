@@ -107,7 +107,7 @@ clean: CMakeFiles/defineMacro.dir/clean
 CMakeFiles/queueAndStack.dir/all:
 	$(MAKE) -f CMakeFiles\queueAndStack.dir\build.make CMakeFiles/queueAndStack.dir/depend
 	$(MAKE) -f CMakeFiles\queueAndStack.dir\build.make CMakeFiles/queueAndStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target queueAndStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target queueAndStack"
 .PHONY : CMakeFiles/queueAndStack.dir/all
 
 # Include target in all.
@@ -134,6 +134,43 @@ CMakeFiles/queueAndStack.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/queueAndStack.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mergeSortTest.dir
+
+# All Build rule for target.
+CMakeFiles/mergeSortTest.dir/all:
+	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/depend
+	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target mergeSortTest"
+.PHONY : CMakeFiles/mergeSortTest.dir/all
+
+# Include target in all.
+all: CMakeFiles/mergeSortTest.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mergeSortTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/mergeSortTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/mergeSortTest.dir/rule
+
+# Convenience name for target.
+mergeSortTest: CMakeFiles/mergeSortTest.dir/rule
+
+.PHONY : mergeSortTest
+
+# clean rule for target.
+CMakeFiles/mergeSortTest.dir/clean:
+	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/clean
+.PHONY : CMakeFiles/mergeSortTest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mergeSortTest.dir/clean
 
 .PHONY : clean
 
@@ -175,87 +212,13 @@ clean: CMakeFiles/Algorithms.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/majoriryNumber.dir
-
-# All Build rule for target.
-CMakeFiles/majoriryNumber.dir/all:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/depend
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target majoriryNumber"
-.PHONY : CMakeFiles/majoriryNumber.dir/all
-
-# Include target in all.
-all: CMakeFiles/majoriryNumber.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/majoriryNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/majoriryNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/majoriryNumber.dir/rule
-
-# Convenience name for target.
-majoriryNumber: CMakeFiles/majoriryNumber.dir/rule
-
-.PHONY : majoriryNumber
-
-# clean rule for target.
-CMakeFiles/majoriryNumber.dir/clean:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/clean
-.PHONY : CMakeFiles/majoriryNumber.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/majoriryNumber.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sort.dir
-
-# All Build rule for target.
-CMakeFiles/sort.dir/all:
-	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/depend
-	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target sort"
-.PHONY : CMakeFiles/sort.dir/all
-
-# Include target in all.
-all: CMakeFiles/sort.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/sort.dir/rule
-
-# Convenience name for target.
-sort: CMakeFiles/sort.dir/rule
-
-.PHONY : sort
-
-# clean rule for target.
-CMakeFiles/sort.dir/clean:
-	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/clean
-.PHONY : CMakeFiles/sort.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/sort.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/largestRectangleArea.dir
 
 # All Build rule for target.
 CMakeFiles/largestRectangleArea.dir/all:
 	$(MAKE) -f CMakeFiles\largestRectangleArea.dir\build.make CMakeFiles/largestRectangleArea.dir/depend
 	$(MAKE) -f CMakeFiles\largestRectangleArea.dir\build.make CMakeFiles/largestRectangleArea.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target largestRectangleArea"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target largestRectangleArea"
 .PHONY : CMakeFiles/largestRectangleArea.dir/all
 
 # Include target in all.
@@ -282,6 +245,43 @@ CMakeFiles/largestRectangleArea.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/largestRectangleArea.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/eightQueen.dir
+
+# All Build rule for target.
+CMakeFiles/eightQueen.dir/all:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/depend
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target eightQueen"
+.PHONY : CMakeFiles/eightQueen.dir/all
+
+# Include target in all.
+all: CMakeFiles/eightQueen.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/eightQueen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/eightQueen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/eightQueen.dir/rule
+
+# Convenience name for target.
+eightQueen: CMakeFiles/eightQueen.dir/rule
+
+.PHONY : eightQueen
+
+# clean rule for target.
+CMakeFiles/eightQueen.dir/clean:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/clean
+.PHONY : CMakeFiles/eightQueen.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/eightQueen.dir/clean
 
 .PHONY : clean
 
@@ -323,13 +323,50 @@ clean: CMakeFiles/arrayAndString.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/rotateImage.dir
+
+# All Build rule for target.
+CMakeFiles/rotateImage.dir/all:
+	$(MAKE) -f CMakeFiles\rotateImage.dir\build.make CMakeFiles/rotateImage.dir/depend
+	$(MAKE) -f CMakeFiles\rotateImage.dir\build.make CMakeFiles/rotateImage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target rotateImage"
+.PHONY : CMakeFiles/rotateImage.dir/all
+
+# Include target in all.
+all: CMakeFiles/rotateImage.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rotateImage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/rotateImage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/rotateImage.dir/rule
+
+# Convenience name for target.
+rotateImage: CMakeFiles/rotateImage.dir/rule
+
+.PHONY : rotateImage
+
+# clean rule for target.
+CMakeFiles/rotateImage.dir/clean:
+	$(MAKE) -f CMakeFiles\rotateImage.dir\build.make CMakeFiles/rotateImage.dir/clean
+.PHONY : CMakeFiles/rotateImage.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/rotateImage.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/findDigit.dir
 
 # All Build rule for target.
 CMakeFiles/findDigit.dir/all:
 	$(MAKE) -f CMakeFiles\findDigit.dir\build.make CMakeFiles/findDigit.dir/depend
 	$(MAKE) -f CMakeFiles\findDigit.dir\build.make CMakeFiles/findDigit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target findDigit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target findDigit"
 .PHONY : CMakeFiles/findDigit.dir/all
 
 # Include target in all.
@@ -366,7 +403,7 @@ clean: CMakeFiles/findDigit.dir/clean
 CMakeFiles/minSubArrayLen.dir/all:
 	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/depend
 	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target minSubArrayLen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target minSubArrayLen"
 .PHONY : CMakeFiles/minSubArrayLen.dir/all
 
 # Include target in all.
@@ -403,7 +440,7 @@ clean: CMakeFiles/minSubArrayLen.dir/clean
 CMakeFiles/stringDecoder.dir/all:
 	$(MAKE) -f CMakeFiles\stringDecoder.dir\build.make CMakeFiles/stringDecoder.dir/depend
 	$(MAKE) -f CMakeFiles\stringDecoder.dir\build.make CMakeFiles/stringDecoder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target stringDecoder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target stringDecoder"
 .PHONY : CMakeFiles/stringDecoder.dir/all
 
 # Include target in all.
@@ -440,7 +477,7 @@ clean: CMakeFiles/stringDecoder.dir/clean
 CMakeFiles/lengthOfLongestSubstring.dir/all:
 	$(MAKE) -f CMakeFiles\lengthOfLongestSubstring.dir\build.make CMakeFiles/lengthOfLongestSubstring.dir/depend
 	$(MAKE) -f CMakeFiles\lengthOfLongestSubstring.dir\build.make CMakeFiles/lengthOfLongestSubstring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target lengthOfLongestSubstring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target lengthOfLongestSubstring"
 .PHONY : CMakeFiles/lengthOfLongestSubstring.dir/all
 
 # Include target in all.
@@ -477,7 +514,7 @@ clean: CMakeFiles/lengthOfLongestSubstring.dir/clean
 CMakeFiles/uniquePath.dir/all:
 	$(MAKE) -f CMakeFiles\uniquePath.dir\build.make CMakeFiles/uniquePath.dir/depend
 	$(MAKE) -f CMakeFiles\uniquePath.dir\build.make CMakeFiles/uniquePath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target uniquePath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target uniquePath"
 .PHONY : CMakeFiles/uniquePath.dir/all
 
 # Include target in all.
@@ -514,7 +551,7 @@ clean: CMakeFiles/uniquePath.dir/clean
 CMakeFiles/hashmap.dir/all:
 	$(MAKE) -f CMakeFiles\hashmap.dir\build.make CMakeFiles/hashmap.dir/depend
 	$(MAKE) -f CMakeFiles\hashmap.dir\build.make CMakeFiles/hashmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=31,32,33,34 "Built target hashmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=33,34,35,36 "Built target hashmap"
 .PHONY : CMakeFiles/hashmap.dir/all
 
 # Include target in all.
@@ -541,6 +578,80 @@ CMakeFiles/hashmap.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/hashmap.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/majoriryNumber.dir
+
+# All Build rule for target.
+CMakeFiles/majoriryNumber.dir/all:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/depend
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target majoriryNumber"
+.PHONY : CMakeFiles/majoriryNumber.dir/all
+
+# Include target in all.
+all: CMakeFiles/majoriryNumber.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/majoriryNumber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/majoriryNumber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/majoriryNumber.dir/rule
+
+# Convenience name for target.
+majoriryNumber: CMakeFiles/majoriryNumber.dir/rule
+
+.PHONY : majoriryNumber
+
+# clean rule for target.
+CMakeFiles/majoriryNumber.dir/clean:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/clean
+.PHONY : CMakeFiles/majoriryNumber.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/majoriryNumber.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sort.dir
+
+# All Build rule for target.
+CMakeFiles/sort.dir/all:
+	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/depend
+	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target sort"
+.PHONY : CMakeFiles/sort.dir/all
+
+# Include target in all.
+all: CMakeFiles/sort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/sort.dir/rule
+
+# Convenience name for target.
+sort: CMakeFiles/sort.dir/rule
+
+.PHONY : sort
+
+# clean rule for target.
+CMakeFiles/sort.dir/clean:
+	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/clean
+.PHONY : CMakeFiles/sort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sort.dir/clean
 
 .PHONY : clean
 
@@ -582,50 +693,13 @@ clean: CMakeFiles/countInversion.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/merSortTest.dir
-
-# All Build rule for target.
-CMakeFiles/merSortTest.dir/all:
-	$(MAKE) -f CMakeFiles\merSortTest.dir\build.make CMakeFiles/merSortTest.dir/depend
-	$(MAKE) -f CMakeFiles\merSortTest.dir\build.make CMakeFiles/merSortTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target merSortTest"
-.PHONY : CMakeFiles/merSortTest.dir/all
-
-# Include target in all.
-all: CMakeFiles/merSortTest.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/merSortTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/merSortTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/merSortTest.dir/rule
-
-# Convenience name for target.
-merSortTest: CMakeFiles/merSortTest.dir/rule
-
-.PHONY : merSortTest
-
-# clean rule for target.
-CMakeFiles/merSortTest.dir/clean:
-	$(MAKE) -f CMakeFiles\merSortTest.dir\build.make CMakeFiles/merSortTest.dir/clean
-.PHONY : CMakeFiles/merSortTest.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/merSortTest.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/test1.dir
 
 # All Build rule for target.
 CMakeFiles/test1.dir/all:
 	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/depend
 	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target test1"
 .PHONY : CMakeFiles/test1.dir/all
 
 # Include target in all.
@@ -662,7 +736,7 @@ clean: CMakeFiles/test1.dir/clean
 CMakeFiles/test2.dir/all:
 	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/depend
 	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target test2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target test2"
 .PHONY : CMakeFiles/test2.dir/all
 
 # Include target in all.
@@ -699,7 +773,7 @@ clean: CMakeFiles/test2.dir/clean
 CMakeFiles/preInConstruct.dir/all:
 	$(MAKE) -f CMakeFiles\preInConstruct.dir\build.make CMakeFiles/preInConstruct.dir/depend
 	$(MAKE) -f CMakeFiles\preInConstruct.dir\build.make CMakeFiles/preInConstruct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target preInConstruct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target preInConstruct"
 .PHONY : CMakeFiles/preInConstruct.dir/all
 
 # Include target in all.
@@ -736,7 +810,7 @@ clean: CMakeFiles/preInConstruct.dir/clean
 CMakeFiles/stl_usage.dir/all:
 	$(MAKE) -f CMakeFiles\stl_usage.dir\build.make CMakeFiles/stl_usage.dir/depend
 	$(MAKE) -f CMakeFiles\stl_usage.dir\build.make CMakeFiles/stl_usage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target stl_usage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target stl_usage"
 .PHONY : CMakeFiles/stl_usage.dir/all
 
 # Include target in all.
@@ -773,7 +847,7 @@ clean: CMakeFiles/stl_usage.dir/clean
 CMakeFiles/openlock.dir/all:
 	$(MAKE) -f CMakeFiles\openlock.dir\build.make CMakeFiles/openlock.dir/depend
 	$(MAKE) -f CMakeFiles\openlock.dir\build.make CMakeFiles/openlock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target openlock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target openlock"
 .PHONY : CMakeFiles/openlock.dir/all
 
 # Include target in all.
@@ -884,7 +958,7 @@ clean: CMakeFiles/combine2.dir/clean
 CMakeFiles/permute.dir/all:
 	$(MAKE) -f CMakeFiles\permute.dir\build.make CMakeFiles/permute.dir/depend
 	$(MAKE) -f CMakeFiles\permute.dir\build.make CMakeFiles/permute.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target permute"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target permute"
 .PHONY : CMakeFiles/permute.dir/all
 
 # Include target in all.
@@ -921,7 +995,7 @@ clean: CMakeFiles/permute.dir/clean
 CMakeFiles/existPath1.dir/all:
 	$(MAKE) -f CMakeFiles\existPath1.dir\build.make CMakeFiles/existPath1.dir/depend
 	$(MAKE) -f CMakeFiles\existPath1.dir\build.make CMakeFiles/existPath1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target existPath1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target existPath1"
 .PHONY : CMakeFiles/existPath1.dir/all
 
 # Include target in all.
@@ -958,7 +1032,7 @@ clean: CMakeFiles/existPath1.dir/clean
 CMakeFiles/heapTest.dir/all:
 	$(MAKE) -f CMakeFiles\heapTest.dir\build.make CMakeFiles/heapTest.dir/depend
 	$(MAKE) -f CMakeFiles\heapTest.dir\build.make CMakeFiles/heapTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target heapTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target heapTest"
 .PHONY : CMakeFiles/heapTest.dir/all
 
 # Include target in all.
@@ -995,7 +1069,7 @@ clean: CMakeFiles/heapTest.dir/clean
 CMakeFiles/existPath2.dir/all:
 	$(MAKE) -f CMakeFiles\existPath2.dir\build.make CMakeFiles/existPath2.dir/depend
 	$(MAKE) -f CMakeFiles\existPath2.dir\build.make CMakeFiles/existPath2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target existPath2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target existPath2"
 .PHONY : CMakeFiles/existPath2.dir/all
 
 # Include target in all.
@@ -1063,13 +1137,50 @@ clean: CMakeFiles/divingBoards.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/prim.dir
+
+# All Build rule for target.
+CMakeFiles/prim.dir/all:
+	$(MAKE) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/depend
+	$(MAKE) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target prim"
+.PHONY : CMakeFiles/prim.dir/all
+
+# Include target in all.
+all: CMakeFiles/prim.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/prim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/prim.dir/rule
+
+# Convenience name for target.
+prim: CMakeFiles/prim.dir/rule
+
+.PHONY : prim
+
+# clean rule for target.
+CMakeFiles/prim.dir/clean:
+	$(MAKE) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/clean
+.PHONY : CMakeFiles/prim.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/prim.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/priority_queue.dir
 
 # All Build rule for target.
 CMakeFiles/priority_queue.dir/all:
 	$(MAKE) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/depend
 	$(MAKE) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target priority_queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target priority_queue"
 .PHONY : CMakeFiles/priority_queue.dir/all
 
 # Include target in all.
@@ -1100,13 +1211,87 @@ clean: CMakeFiles/priority_queue.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/unionFind.dir
+
+# All Build rule for target.
+CMakeFiles/unionFind.dir/all:
+	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/depend
+	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target unionFind"
+.PHONY : CMakeFiles/unionFind.dir/all
+
+# Include target in all.
+all: CMakeFiles/unionFind.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/unionFind.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/unionFind.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/unionFind.dir/rule
+
+# Convenience name for target.
+unionFind: CMakeFiles/unionFind.dir/rule
+
+.PHONY : unionFind
+
+# clean rule for target.
+CMakeFiles/unionFind.dir/clean:
+	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/clean
+.PHONY : CMakeFiles/unionFind.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/unionFind.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mapsum.dir
+
+# All Build rule for target.
+CMakeFiles/mapsum.dir/all:
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/depend
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target mapsum"
+.PHONY : CMakeFiles/mapsum.dir/all
+
+# Include target in all.
+all: CMakeFiles/mapsum.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mapsum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/mapsum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\Algorithms\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/mapsum.dir/rule
+
+# Convenience name for target.
+mapsum: CMakeFiles/mapsum.dir/rule
+
+.PHONY : mapsum
+
+# clean rule for target.
+CMakeFiles/mapsum.dir/clean:
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/clean
+.PHONY : CMakeFiles/mapsum.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/mapsum.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/uglyNumber.dir
 
 # All Build rule for target.
 CMakeFiles/uglyNumber.dir/all:
 	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/depend
 	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target uglyNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target uglyNumber"
 .PHONY : CMakeFiles/uglyNumber.dir/all
 
 # Include target in all.
@@ -1143,7 +1328,7 @@ clean: CMakeFiles/uglyNumber.dir/clean
 CMakeFiles/myStrStr.dir/all:
 	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/depend
 	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target myStrStr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target myStrStr"
 .PHONY : CMakeFiles/myStrStr.dir/all
 
 # Include target in all.
@@ -1180,7 +1365,7 @@ clean: CMakeFiles/myStrStr.dir/clean
 CMakeFiles/palindromStr.dir/all:
 	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/depend
 	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target palindromStr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target palindromStr"
 .PHONY : CMakeFiles/palindromStr.dir/all
 
 # Include target in all.

@@ -1,4 +1,4 @@
-//
+// 优先队列,参考编程珠玑
 // Created by wbzhang on 2020/7/31.
 //
 
@@ -11,6 +11,7 @@ using namespace std;
 int main()
 {
     priority_queue<double> pq1; // 默认为大顶堆
+
     pq1.push(3.2);
     pq1.push(9.8);
     pq1.push(9.8);

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/palindromStr.dir/palindromStr.cpp.obj"
+  "CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj"
   "palindromStr.pdb"
   "palindromStr.exe"
   "palindromStr.exe.manifest"

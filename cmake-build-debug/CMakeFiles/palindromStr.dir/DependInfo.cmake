@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/Algorithms/palindromStr.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/palindromStr.dir/palindromStr.cpp.obj"
+  "D:/Code/Algorithms/12-dp/palindromStr.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

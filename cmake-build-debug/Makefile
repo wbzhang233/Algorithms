@@ -136,6 +136,19 @@ queueAndStack/fast:
 .PHONY : queueAndStack/fast
 
 #=============================================================================
+# Target rules for targets named mergeSortTest
+
+# Build rule for target.
+mergeSortTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 mergeSortTest
+.PHONY : mergeSortTest
+
+# fast build rule for target.
+mergeSortTest/fast:
+	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/build
+.PHONY : mergeSortTest/fast
+
+#=============================================================================
 # Target rules for targets named Algorithms
 
 # Build rule for target.
@@ -147,32 +160,6 @@ Algorithms: cmake_check_build_system
 Algorithms/fast:
 	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
-
-#=============================================================================
-# Target rules for targets named majoriryNumber
-
-# Build rule for target.
-majoriryNumber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 majoriryNumber
-.PHONY : majoriryNumber
-
-# fast build rule for target.
-majoriryNumber/fast:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
-.PHONY : majoriryNumber/fast
-
-#=============================================================================
-# Target rules for targets named sort
-
-# Build rule for target.
-sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 sort
-.PHONY : sort
-
-# fast build rule for target.
-sort/fast:
-	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
-.PHONY : sort/fast
 
 #=============================================================================
 # Target rules for targets named largestRectangleArea
@@ -188,6 +175,19 @@ largestRectangleArea/fast:
 .PHONY : largestRectangleArea/fast
 
 #=============================================================================
+# Target rules for targets named eightQueen
+
+# Build rule for target.
+eightQueen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 eightQueen
+.PHONY : eightQueen
+
+# fast build rule for target.
+eightQueen/fast:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/build
+.PHONY : eightQueen/fast
+
+#=============================================================================
 # Target rules for targets named arrayAndString
 
 # Build rule for target.
@@ -199,6 +199,19 @@ arrayAndString: cmake_check_build_system
 arrayAndString/fast:
 	$(MAKE) -f CMakeFiles\arrayAndString.dir\build.make CMakeFiles/arrayAndString.dir/build
 .PHONY : arrayAndString/fast
+
+#=============================================================================
+# Target rules for targets named rotateImage
+
+# Build rule for target.
+rotateImage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 rotateImage
+.PHONY : rotateImage
+
+# fast build rule for target.
+rotateImage/fast:
+	$(MAKE) -f CMakeFiles\rotateImage.dir\build.make CMakeFiles/rotateImage.dir/build
+.PHONY : rotateImage/fast
 
 #=============================================================================
 # Target rules for targets named findDigit
@@ -279,6 +292,32 @@ hashmap/fast:
 .PHONY : hashmap/fast
 
 #=============================================================================
+# Target rules for targets named majoriryNumber
+
+# Build rule for target.
+majoriryNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 majoriryNumber
+.PHONY : majoriryNumber
+
+# fast build rule for target.
+majoriryNumber/fast:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
+.PHONY : majoriryNumber/fast
+
+#=============================================================================
+# Target rules for targets named sort
+
+# Build rule for target.
+sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sort
+.PHONY : sort
+
+# fast build rule for target.
+sort/fast:
+	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
+.PHONY : sort/fast
+
+#=============================================================================
 # Target rules for targets named countInversion
 
 # Build rule for target.
@@ -290,19 +329,6 @@ countInversion: cmake_check_build_system
 countInversion/fast:
 	$(MAKE) -f CMakeFiles\countInversion.dir\build.make CMakeFiles/countInversion.dir/build
 .PHONY : countInversion/fast
-
-#=============================================================================
-# Target rules for targets named merSortTest
-
-# Build rule for target.
-merSortTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 merSortTest
-.PHONY : merSortTest
-
-# fast build rule for target.
-merSortTest/fast:
-	$(MAKE) -f CMakeFiles\merSortTest.dir\build.make CMakeFiles/merSortTest.dir/build
-.PHONY : merSortTest/fast
 
 #=============================================================================
 # Target rules for targets named test1
@@ -461,6 +487,19 @@ divingBoards/fast:
 .PHONY : divingBoards/fast
 
 #=============================================================================
+# Target rules for targets named prim
+
+# Build rule for target.
+prim: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prim
+.PHONY : prim
+
+# fast build rule for target.
+prim/fast:
+	$(MAKE) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/build
+.PHONY : prim/fast
+
+#=============================================================================
 # Target rules for targets named priority_queue
 
 # Build rule for target.
@@ -472,6 +511,32 @@ priority_queue: cmake_check_build_system
 priority_queue/fast:
 	$(MAKE) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/build
 .PHONY : priority_queue/fast
+
+#=============================================================================
+# Target rules for targets named unionFind
+
+# Build rule for target.
+unionFind: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 unionFind
+.PHONY : unionFind
+
+# fast build rule for target.
+unionFind/fast:
+	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/build
+.PHONY : unionFind/fast
+
+#=============================================================================
+# Target rules for targets named mapsum
+
+# Build rule for target.
+mapsum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 mapsum
+.PHONY : mapsum
+
+# fast build rule for target.
+mapsum/fast:
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/build
+.PHONY : mapsum/fast
 
 #=============================================================================
 # Target rules for targets named uglyNumber
@@ -572,7 +637,7 @@ palindromStr/fast:
 
 # target to build an object file
 0-sorting/mytest.cpp.obj:
-	$(MAKE) -f CMakeFiles\merSortTest.dir\build.make CMakeFiles/merSortTest.dir/0-sorting/mytest.cpp.obj
+	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/0-sorting/mytest.cpp.obj
 .PHONY : 0-sorting/mytest.cpp.obj
 
 0-sorting/mytest.i: 0-sorting/mytest.cpp.i
@@ -581,7 +646,7 @@ palindromStr/fast:
 
 # target to preprocess a source file
 0-sorting/mytest.cpp.i:
-	$(MAKE) -f CMakeFiles\merSortTest.dir\build.make CMakeFiles/merSortTest.dir/0-sorting/mytest.cpp.i
+	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/0-sorting/mytest.cpp.i
 .PHONY : 0-sorting/mytest.cpp.i
 
 0-sorting/mytest.s: 0-sorting/mytest.cpp.s
@@ -590,7 +655,7 @@ palindromStr/fast:
 
 # target to generate assembly for a file
 0-sorting/mytest.cpp.s:
-	$(MAKE) -f CMakeFiles\merSortTest.dir\build.make CMakeFiles/merSortTest.dir/0-sorting/mytest.cpp.s
+	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/0-sorting/mytest.cpp.s
 .PHONY : 0-sorting/mytest.cpp.s
 
 0-sorting/sort.obj: 0-sorting/sort.cpp.obj
@@ -782,6 +847,33 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\uniquePath.dir\build.make CMakeFiles/uniquePath.dir/11-dfs/uniquePath.cpp.s
 .PHONY : 11-dfs/uniquePath.cpp.s
 
+12-dp/palindromStr.obj: 12-dp/palindromStr.cpp.obj
+
+.PHONY : 12-dp/palindromStr.obj
+
+# target to build an object file
+12-dp/palindromStr.cpp.obj:
+	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.obj
+.PHONY : 12-dp/palindromStr.cpp.obj
+
+12-dp/palindromStr.i: 12-dp/palindromStr.cpp.i
+
+.PHONY : 12-dp/palindromStr.i
+
+# target to preprocess a source file
+12-dp/palindromStr.cpp.i:
+	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.i
+.PHONY : 12-dp/palindromStr.cpp.i
+
+12-dp/palindromStr.s: 12-dp/palindromStr.cpp.s
+
+.PHONY : 12-dp/palindromStr.s
+
+# target to generate assembly for a file
+12-dp/palindromStr.cpp.s:
+	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/12-dp/palindromStr.cpp.s
+.PHONY : 12-dp/palindromStr.cpp.s
+
 13-stack/mono_stack.obj: 13-stack/mono_stack.cpp.obj
 
 .PHONY : 13-stack/mono_stack.obj
@@ -809,6 +901,87 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\largestRectangleArea.dir\build.make CMakeFiles/largestRectangleArea.dir/13-stack/mono_stack.cpp.s
 .PHONY : 13-stack/mono_stack.cpp.s
 
+14-Graph/prim.obj: 14-Graph/prim.cpp.obj
+
+.PHONY : 14-Graph/prim.obj
+
+# target to build an object file
+14-Graph/prim.cpp.obj:
+	$(MAKE) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/14-Graph/prim.cpp.obj
+.PHONY : 14-Graph/prim.cpp.obj
+
+14-Graph/prim.i: 14-Graph/prim.cpp.i
+
+.PHONY : 14-Graph/prim.i
+
+# target to preprocess a source file
+14-Graph/prim.cpp.i:
+	$(MAKE) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/14-Graph/prim.cpp.i
+.PHONY : 14-Graph/prim.cpp.i
+
+14-Graph/prim.s: 14-Graph/prim.cpp.s
+
+.PHONY : 14-Graph/prim.s
+
+# target to generate assembly for a file
+14-Graph/prim.cpp.s:
+	$(MAKE) -f CMakeFiles\prim.dir\build.make CMakeFiles/prim.dir/14-Graph/prim.cpp.s
+.PHONY : 14-Graph/prim.cpp.s
+
+15-unionFind/unionFind.obj: 15-unionFind/unionFind.cpp.obj
+
+.PHONY : 15-unionFind/unionFind.obj
+
+# target to build an object file
+15-unionFind/unionFind.cpp.obj:
+	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/15-unionFind/unionFind.cpp.obj
+.PHONY : 15-unionFind/unionFind.cpp.obj
+
+15-unionFind/unionFind.i: 15-unionFind/unionFind.cpp.i
+
+.PHONY : 15-unionFind/unionFind.i
+
+# target to preprocess a source file
+15-unionFind/unionFind.cpp.i:
+	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/15-unionFind/unionFind.cpp.i
+.PHONY : 15-unionFind/unionFind.cpp.i
+
+15-unionFind/unionFind.s: 15-unionFind/unionFind.cpp.s
+
+.PHONY : 15-unionFind/unionFind.s
+
+# target to generate assembly for a file
+15-unionFind/unionFind.cpp.s:
+	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/15-unionFind/unionFind.cpp.s
+.PHONY : 15-unionFind/unionFind.cpp.s
+
+16-Trie/mapsum.obj: 16-Trie/mapsum.cpp.obj
+
+.PHONY : 16-Trie/mapsum.obj
+
+# target to build an object file
+16-Trie/mapsum.cpp.obj:
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/16-Trie/mapsum.cpp.obj
+.PHONY : 16-Trie/mapsum.cpp.obj
+
+16-Trie/mapsum.i: 16-Trie/mapsum.cpp.i
+
+.PHONY : 16-Trie/mapsum.i
+
+# target to preprocess a source file
+16-Trie/mapsum.cpp.i:
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/16-Trie/mapsum.cpp.i
+.PHONY : 16-Trie/mapsum.cpp.i
+
+16-Trie/mapsum.s: 16-Trie/mapsum.cpp.s
+
+.PHONY : 16-Trie/mapsum.s
+
+# target to generate assembly for a file
+16-Trie/mapsum.cpp.s:
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/16-Trie/mapsum.cpp.s
+.PHONY : 16-Trie/mapsum.cpp.s
+
 2-arrayAndString/arrayTest.obj: 2-arrayAndString/arrayTest.cpp.obj
 
 .PHONY : 2-arrayAndString/arrayTest.obj
@@ -835,6 +1008,33 @@ palindromStr/fast:
 2-arrayAndString/arrayTest.cpp.s:
 	$(MAKE) -f CMakeFiles\arrayAndString.dir\build.make CMakeFiles/arrayAndString.dir/2-arrayAndString/arrayTest.cpp.s
 .PHONY : 2-arrayAndString/arrayTest.cpp.s
+
+2-arrayAndString/rotateImage.obj: 2-arrayAndString/rotateImage.cpp.obj
+
+.PHONY : 2-arrayAndString/rotateImage.obj
+
+# target to build an object file
+2-arrayAndString/rotateImage.cpp.obj:
+	$(MAKE) -f CMakeFiles\rotateImage.dir\build.make CMakeFiles/rotateImage.dir/2-arrayAndString/rotateImage.cpp.obj
+.PHONY : 2-arrayAndString/rotateImage.cpp.obj
+
+2-arrayAndString/rotateImage.i: 2-arrayAndString/rotateImage.cpp.i
+
+.PHONY : 2-arrayAndString/rotateImage.i
+
+# target to preprocess a source file
+2-arrayAndString/rotateImage.cpp.i:
+	$(MAKE) -f CMakeFiles\rotateImage.dir\build.make CMakeFiles/rotateImage.dir/2-arrayAndString/rotateImage.cpp.i
+.PHONY : 2-arrayAndString/rotateImage.cpp.i
+
+2-arrayAndString/rotateImage.s: 2-arrayAndString/rotateImage.cpp.s
+
+.PHONY : 2-arrayAndString/rotateImage.s
+
+# target to generate assembly for a file
+2-arrayAndString/rotateImage.cpp.s:
+	$(MAKE) -f CMakeFiles\rotateImage.dir\build.make CMakeFiles/rotateImage.dir/2-arrayAndString/rotateImage.cpp.s
+.PHONY : 2-arrayAndString/rotateImage.cpp.s
 
 2-arrayAndString/stringDecoder.obj: 2-arrayAndString/stringDecoder.cpp.obj
 
@@ -1214,6 +1414,33 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\combine2.dir\build.make CMakeFiles/combine2.dir/7-Backtrack/combine2.cpp.s
 .PHONY : 7-Backtrack/combine2.cpp.s
 
+7-Backtrack/eightQueen.obj: 7-Backtrack/eightQueen.cpp.obj
+
+.PHONY : 7-Backtrack/eightQueen.obj
+
+# target to build an object file
+7-Backtrack/eightQueen.cpp.obj:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/7-Backtrack/eightQueen.cpp.obj
+.PHONY : 7-Backtrack/eightQueen.cpp.obj
+
+7-Backtrack/eightQueen.i: 7-Backtrack/eightQueen.cpp.i
+
+.PHONY : 7-Backtrack/eightQueen.i
+
+# target to preprocess a source file
+7-Backtrack/eightQueen.cpp.i:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/7-Backtrack/eightQueen.cpp.i
+.PHONY : 7-Backtrack/eightQueen.cpp.i
+
+7-Backtrack/eightQueen.s: 7-Backtrack/eightQueen.cpp.s
+
+.PHONY : 7-Backtrack/eightQueen.s
+
+# target to generate assembly for a file
+7-Backtrack/eightQueen.cpp.s:
+	$(MAKE) -f CMakeFiles\eightQueen.dir\build.make CMakeFiles/eightQueen.dir/7-Backtrack/eightQueen.cpp.s
+.PHONY : 7-Backtrack/eightQueen.cpp.s
+
 7-Backtrack/exist.obj: 7-Backtrack/exist.cpp.obj
 
 .PHONY : 7-Backtrack/exist.obj
@@ -1511,33 +1738,6 @@ myStrStr.cpp.s:
 	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/myStrStr.cpp.s
 .PHONY : myStrStr.cpp.s
 
-palindromStr.obj: palindromStr.cpp.obj
-
-.PHONY : palindromStr.obj
-
-# target to build an object file
-palindromStr.cpp.obj:
-	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/palindromStr.cpp.obj
-.PHONY : palindromStr.cpp.obj
-
-palindromStr.i: palindromStr.cpp.i
-
-.PHONY : palindromStr.i
-
-# target to preprocess a source file
-palindromStr.cpp.i:
-	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/palindromStr.cpp.i
-.PHONY : palindromStr.cpp.i
-
-palindromStr.s: palindromStr.cpp.s
-
-.PHONY : palindromStr.s
-
-# target to generate assembly for a file
-palindromStr.cpp.s:
-	$(MAKE) -f CMakeFiles\palindromStr.dir\build.make CMakeFiles/palindromStr.dir/palindromStr.cpp.s
-.PHONY : palindromStr.cpp.s
-
 swordToOffer/findDigit.obj: swordToOffer/findDigit.cpp.obj
 
 .PHONY : swordToOffer/findDigit.obj
@@ -1681,19 +1881,21 @@ help:
 	@echo ... depend
 	@echo ... defineMacro
 	@echo ... queueAndStack
+	@echo ... mergeSortTest
 	@echo ... Algorithms
-	@echo ... majoriryNumber
-	@echo ... sort
 	@echo ... largestRectangleArea
+	@echo ... eightQueen
 	@echo ... arrayAndString
+	@echo ... rotateImage
 	@echo ... findDigit
 	@echo ... minSubArrayLen
 	@echo ... stringDecoder
 	@echo ... lengthOfLongestSubstring
 	@echo ... uniquePath
 	@echo ... hashmap
+	@echo ... majoriryNumber
+	@echo ... sort
 	@echo ... countInversion
-	@echo ... merSortTest
 	@echo ... test1
 	@echo ... test2
 	@echo ... preInConstruct
@@ -1707,7 +1909,10 @@ help:
 	@echo ... heapTest
 	@echo ... existPath2
 	@echo ... divingBoards
+	@echo ... prim
 	@echo ... priority_queue
+	@echo ... unionFind
+	@echo ... mapsum
 	@echo ... uglyNumber
 	@echo ... myStrStr
 	@echo ... palindromStr
@@ -1742,12 +1947,27 @@ help:
 	@echo ... 11-dfs/uniquePath.obj
 	@echo ... 11-dfs/uniquePath.i
 	@echo ... 11-dfs/uniquePath.s
+	@echo ... 12-dp/palindromStr.obj
+	@echo ... 12-dp/palindromStr.i
+	@echo ... 12-dp/palindromStr.s
 	@echo ... 13-stack/mono_stack.obj
 	@echo ... 13-stack/mono_stack.i
 	@echo ... 13-stack/mono_stack.s
+	@echo ... 14-Graph/prim.obj
+	@echo ... 14-Graph/prim.i
+	@echo ... 14-Graph/prim.s
+	@echo ... 15-unionFind/unionFind.obj
+	@echo ... 15-unionFind/unionFind.i
+	@echo ... 15-unionFind/unionFind.s
+	@echo ... 16-Trie/mapsum.obj
+	@echo ... 16-Trie/mapsum.i
+	@echo ... 16-Trie/mapsum.s
 	@echo ... 2-arrayAndString/arrayTest.obj
 	@echo ... 2-arrayAndString/arrayTest.i
 	@echo ... 2-arrayAndString/arrayTest.s
+	@echo ... 2-arrayAndString/rotateImage.obj
+	@echo ... 2-arrayAndString/rotateImage.i
+	@echo ... 2-arrayAndString/rotateImage.s
 	@echo ... 2-arrayAndString/stringDecoder.obj
 	@echo ... 2-arrayAndString/stringDecoder.i
 	@echo ... 2-arrayAndString/stringDecoder.s
@@ -1790,6 +2010,9 @@ help:
 	@echo ... 7-Backtrack/combine2.obj
 	@echo ... 7-Backtrack/combine2.i
 	@echo ... 7-Backtrack/combine2.s
+	@echo ... 7-Backtrack/eightQueen.obj
+	@echo ... 7-Backtrack/eightQueen.i
+	@echo ... 7-Backtrack/eightQueen.s
 	@echo ... 7-Backtrack/exist.obj
 	@echo ... 7-Backtrack/exist.i
 	@echo ... 7-Backtrack/exist.s
@@ -1823,9 +2046,6 @@ help:
 	@echo ... myStrStr.obj
 	@echo ... myStrStr.i
 	@echo ... myStrStr.s
-	@echo ... palindromStr.obj
-	@echo ... palindromStr.i
-	@echo ... palindromStr.s
 	@echo ... swordToOffer/findDigit.obj
 	@echo ... swordToOffer/findDigit.i
 	@echo ... swordToOffer/findDigit.s
