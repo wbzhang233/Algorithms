@@ -23,6 +23,7 @@ D:/Code/Algorithms/cmake-build-debug/CMakeFiles/openlock.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/combine.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/combine2.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Code/Algorithms/cmake-build-debug/CMakeFiles/cycleList.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/permute.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/existPath1.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/heapTest.dir
@@ -33,6 +34,8 @@ D:/Code/Algorithms/cmake-build-debug/CMakeFiles/priority_queue.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/unionFind.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/mapsum.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/uglyNumber.dir
+D:/Code/Algorithms/cmake-build-debug/CMakeFiles/reverseList.dir
+D:/Code/Algorithms/cmake-build-debug/CMakeFiles/removeElement.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/myStrStr.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/palindromStr.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir

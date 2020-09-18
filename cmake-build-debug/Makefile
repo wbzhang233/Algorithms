@@ -422,6 +422,19 @@ combine2/fast:
 .PHONY : combine2/fast
 
 #=============================================================================
+# Target rules for targets named cycleList
+
+# Build rule for target.
+cycleList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 cycleList
+.PHONY : cycleList
+
+# fast build rule for target.
+cycleList/fast:
+	$(MAKE) -f CMakeFiles\cycleList.dir\build.make CMakeFiles/cycleList.dir/build
+.PHONY : cycleList/fast
+
+#=============================================================================
 # Target rules for targets named permute
 
 # Build rule for target.
@@ -550,6 +563,32 @@ uglyNumber: cmake_check_build_system
 uglyNumber/fast:
 	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/build
 .PHONY : uglyNumber/fast
+
+#=============================================================================
+# Target rules for targets named reverseList
+
+# Build rule for target.
+reverseList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 reverseList
+.PHONY : reverseList
+
+# fast build rule for target.
+reverseList/fast:
+	$(MAKE) -f CMakeFiles\reverseList.dir\build.make CMakeFiles/reverseList.dir/build
+.PHONY : reverseList/fast
+
+#=============================================================================
+# Target rules for targets named removeElement
+
+# Build rule for target.
+removeElement: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 removeElement
+.PHONY : removeElement
+
+# fast build rule for target.
+removeElement/fast:
+	$(MAKE) -f CMakeFiles\removeElement.dir\build.make CMakeFiles/removeElement.dir/build
+.PHONY : removeElement/fast
 
 #=============================================================================
 # Target rules for targets named myStrStr
@@ -684,6 +723,87 @@ palindromStr/fast:
 0-sorting/sort.cpp.s:
 	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/0-sorting/sort.cpp.s
 .PHONY : 0-sorting/sort.cpp.s
+
+00-TopFrequency/cycleList.obj: 00-TopFrequency/cycleList.cpp.obj
+
+.PHONY : 00-TopFrequency/cycleList.obj
+
+# target to build an object file
+00-TopFrequency/cycleList.cpp.obj:
+	$(MAKE) -f CMakeFiles\cycleList.dir\build.make CMakeFiles/cycleList.dir/00-TopFrequency/cycleList.cpp.obj
+.PHONY : 00-TopFrequency/cycleList.cpp.obj
+
+00-TopFrequency/cycleList.i: 00-TopFrequency/cycleList.cpp.i
+
+.PHONY : 00-TopFrequency/cycleList.i
+
+# target to preprocess a source file
+00-TopFrequency/cycleList.cpp.i:
+	$(MAKE) -f CMakeFiles\cycleList.dir\build.make CMakeFiles/cycleList.dir/00-TopFrequency/cycleList.cpp.i
+.PHONY : 00-TopFrequency/cycleList.cpp.i
+
+00-TopFrequency/cycleList.s: 00-TopFrequency/cycleList.cpp.s
+
+.PHONY : 00-TopFrequency/cycleList.s
+
+# target to generate assembly for a file
+00-TopFrequency/cycleList.cpp.s:
+	$(MAKE) -f CMakeFiles\cycleList.dir\build.make CMakeFiles/cycleList.dir/00-TopFrequency/cycleList.cpp.s
+.PHONY : 00-TopFrequency/cycleList.cpp.s
+
+00-TopFrequency/removeElement.obj: 00-TopFrequency/removeElement.cpp.obj
+
+.PHONY : 00-TopFrequency/removeElement.obj
+
+# target to build an object file
+00-TopFrequency/removeElement.cpp.obj:
+	$(MAKE) -f CMakeFiles\removeElement.dir\build.make CMakeFiles/removeElement.dir/00-TopFrequency/removeElement.cpp.obj
+.PHONY : 00-TopFrequency/removeElement.cpp.obj
+
+00-TopFrequency/removeElement.i: 00-TopFrequency/removeElement.cpp.i
+
+.PHONY : 00-TopFrequency/removeElement.i
+
+# target to preprocess a source file
+00-TopFrequency/removeElement.cpp.i:
+	$(MAKE) -f CMakeFiles\removeElement.dir\build.make CMakeFiles/removeElement.dir/00-TopFrequency/removeElement.cpp.i
+.PHONY : 00-TopFrequency/removeElement.cpp.i
+
+00-TopFrequency/removeElement.s: 00-TopFrequency/removeElement.cpp.s
+
+.PHONY : 00-TopFrequency/removeElement.s
+
+# target to generate assembly for a file
+00-TopFrequency/removeElement.cpp.s:
+	$(MAKE) -f CMakeFiles\removeElement.dir\build.make CMakeFiles/removeElement.dir/00-TopFrequency/removeElement.cpp.s
+.PHONY : 00-TopFrequency/removeElement.cpp.s
+
+00-TopFrequency/reverseList.obj: 00-TopFrequency/reverseList.cpp.obj
+
+.PHONY : 00-TopFrequency/reverseList.obj
+
+# target to build an object file
+00-TopFrequency/reverseList.cpp.obj:
+	$(MAKE) -f CMakeFiles\reverseList.dir\build.make CMakeFiles/reverseList.dir/00-TopFrequency/reverseList.cpp.obj
+.PHONY : 00-TopFrequency/reverseList.cpp.obj
+
+00-TopFrequency/reverseList.i: 00-TopFrequency/reverseList.cpp.i
+
+.PHONY : 00-TopFrequency/reverseList.i
+
+# target to preprocess a source file
+00-TopFrequency/reverseList.cpp.i:
+	$(MAKE) -f CMakeFiles\reverseList.dir\build.make CMakeFiles/reverseList.dir/00-TopFrequency/reverseList.cpp.i
+.PHONY : 00-TopFrequency/reverseList.cpp.i
+
+00-TopFrequency/reverseList.s: 00-TopFrequency/reverseList.cpp.s
+
+.PHONY : 00-TopFrequency/reverseList.s
+
+# target to generate assembly for a file
+00-TopFrequency/reverseList.cpp.s:
+	$(MAKE) -f CMakeFiles\reverseList.dir\build.make CMakeFiles/reverseList.dir/00-TopFrequency/reverseList.cpp.s
+.PHONY : 00-TopFrequency/reverseList.cpp.s
 
 1-QueueAndStack/MyQueue.obj: 1-QueueAndStack/MyQueue.cpp.obj
 
@@ -1904,6 +2024,7 @@ help:
 	@echo ... combine
 	@echo ... combine2
 	@echo ... rebuild_cache
+	@echo ... cycleList
 	@echo ... permute
 	@echo ... existPath1
 	@echo ... heapTest
@@ -1914,6 +2035,8 @@ help:
 	@echo ... unionFind
 	@echo ... mapsum
 	@echo ... uglyNumber
+	@echo ... reverseList
+	@echo ... removeElement
 	@echo ... myStrStr
 	@echo ... palindromStr
 	@echo ... edit_cache
@@ -1929,6 +2052,15 @@ help:
 	@echo ... 0-sorting/sort.obj
 	@echo ... 0-sorting/sort.i
 	@echo ... 0-sorting/sort.s
+	@echo ... 00-TopFrequency/cycleList.obj
+	@echo ... 00-TopFrequency/cycleList.i
+	@echo ... 00-TopFrequency/cycleList.s
+	@echo ... 00-TopFrequency/removeElement.obj
+	@echo ... 00-TopFrequency/removeElement.i
+	@echo ... 00-TopFrequency/removeElement.s
+	@echo ... 00-TopFrequency/reverseList.obj
+	@echo ... 00-TopFrequency/reverseList.i
+	@echo ... 00-TopFrequency/reverseList.s
 	@echo ... 1-QueueAndStack/MyQueue.obj
 	@echo ... 1-QueueAndStack/MyQueue.i
 	@echo ... 1-QueueAndStack/MyQueue.s

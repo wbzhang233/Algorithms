@@ -77,6 +77,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/openlock.dir/DependInfo.cmake"
   "CMakeFiles/combine.dir/DependInfo.cmake"
   "CMakeFiles/combine2.dir/DependInfo.cmake"
+  "CMakeFiles/cycleList.dir/DependInfo.cmake"
   "CMakeFiles/permute.dir/DependInfo.cmake"
   "CMakeFiles/existPath1.dir/DependInfo.cmake"
   "CMakeFiles/heapTest.dir/DependInfo.cmake"
@@ -87,6 +88,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/unionFind.dir/DependInfo.cmake"
   "CMakeFiles/mapsum.dir/DependInfo.cmake"
   "CMakeFiles/uglyNumber.dir/DependInfo.cmake"
+  "CMakeFiles/reverseList.dir/DependInfo.cmake"
+  "CMakeFiles/removeElement.dir/DependInfo.cmake"
   "CMakeFiles/myStrStr.dir/DependInfo.cmake"
   "CMakeFiles/palindromStr.dir/DependInfo.cmake"
   )

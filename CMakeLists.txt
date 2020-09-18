@@ -85,7 +85,10 @@ add_executable(lengthOfLongestSubstring ./swordToOffer/lengthOfLongestSubstring.
 add_executable(uglyNumber uglyNumber.cpp)
 
 
-##其他
+##其他高频面试题
+add_executable(reverseList 00-TopFrequency/reverseList.cpp) #反转链表
+add_executable(cycleList 00-TopFrequency/cycleList.cpp) #链表是否存在环
+add_executable(removeElement 00-TopFrequency/removeElement.cpp) #删除链表中的元素
 add_executable(myStrStr ./myStrStr.cpp) #子串
 add_executable(palindromStr ./12-dp/palindromStr.cpp) #回文子串
 add_executable(majoriryNumber ./majoriryNumber.cpp) # 主元素
