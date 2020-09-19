@@ -56,27 +56,27 @@ include CMakeFiles/uglyNumber.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/uglyNumber.dir/flags.make
 
-CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj: CMakeFiles/uglyNumber.dir/flags.make
-CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj: ../uglyNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\uglyNumber.dir\uglyNumber.cpp.obj -c D:\Code\Algorithms\uglyNumber.cpp
+CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj: CMakeFiles/uglyNumber.dir/flags.make
+CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj: ../swordToOffer/uglyNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\uglyNumber.dir\swordToOffer\uglyNumber.cpp.obj -c D:\Code\Algorithms\swordToOffer\uglyNumber.cpp
 
-CMakeFiles/uglyNumber.dir/uglyNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uglyNumber.dir/uglyNumber.cpp.i"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\uglyNumber.cpp > CMakeFiles\uglyNumber.dir\uglyNumber.cpp.i
+CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.i"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\swordToOffer\uglyNumber.cpp > CMakeFiles\uglyNumber.dir\swordToOffer\uglyNumber.cpp.i
 
-CMakeFiles/uglyNumber.dir/uglyNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uglyNumber.dir/uglyNumber.cpp.s"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\uglyNumber.cpp -o CMakeFiles\uglyNumber.dir\uglyNumber.cpp.s
+CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.s"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\swordToOffer\uglyNumber.cpp -o CMakeFiles\uglyNumber.dir\swordToOffer\uglyNumber.cpp.s
 
 # Object files for target uglyNumber
 uglyNumber_OBJECTS = \
-"CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj"
+"CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj"
 
 # External object files for target uglyNumber
 uglyNumber_EXTERNAL_OBJECTS =
 
-uglyNumber.exe: CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj
+uglyNumber.exe: CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj
 uglyNumber.exe: CMakeFiles/uglyNumber.dir/build.make
 uglyNumber.exe: CMakeFiles/uglyNumber.dir/linklibs.rsp
 uglyNumber.exe: CMakeFiles/uglyNumber.dir/objects1.rsp

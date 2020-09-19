@@ -56,27 +56,27 @@ include CMakeFiles/test2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test2.dir/flags.make
 
-CMakeFiles/test2.dir/tetst2.cpp.obj: CMakeFiles/test2.dir/flags.make
-CMakeFiles/test2.dir/tetst2.cpp.obj: ../tetst2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test2.dir/tetst2.cpp.obj"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test2.dir\tetst2.cpp.obj -c D:\Code\Algorithms\tetst2.cpp
+CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.obj: CMakeFiles/test2.dir/flags.make
+CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.obj: ../2-arrayAndString/tetst2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.obj"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test2.dir\2-arrayAndString\tetst2.cpp.obj -c D:\Code\Algorithms\2-arrayAndString\tetst2.cpp
 
-CMakeFiles/test2.dir/tetst2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test2.dir/tetst2.cpp.i"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\tetst2.cpp > CMakeFiles\test2.dir\tetst2.cpp.i
+CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.i"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\2-arrayAndString\tetst2.cpp > CMakeFiles\test2.dir\2-arrayAndString\tetst2.cpp.i
 
-CMakeFiles/test2.dir/tetst2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test2.dir/tetst2.cpp.s"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\tetst2.cpp -o CMakeFiles\test2.dir\tetst2.cpp.s
+CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.s"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\2-arrayAndString\tetst2.cpp -o CMakeFiles\test2.dir\2-arrayAndString\tetst2.cpp.s
 
 # Object files for target test2
 test2_OBJECTS = \
-"CMakeFiles/test2.dir/tetst2.cpp.obj"
+"CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.obj"
 
 # External object files for target test2
 test2_EXTERNAL_OBJECTS =
 
-test2.exe: CMakeFiles/test2.dir/tetst2.cpp.obj
+test2.exe: CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.obj
 test2.exe: CMakeFiles/test2.dir/build.make
 test2.exe: CMakeFiles/test2.dir/linklibs.rsp
 test2.exe: CMakeFiles/test2.dir/objects1.rsp

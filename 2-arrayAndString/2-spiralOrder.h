@@ -5,7 +5,7 @@
 #ifndef ALGORITHMS_2_SPIRALORDER_H
 #define ALGORITHMS_2_SPIRALORDER_H
 
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 vector<int> spiralOrder(vector<vector<int>>& matrix) {
     vector<int> result;

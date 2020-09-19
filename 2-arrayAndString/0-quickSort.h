@@ -6,7 +6,7 @@
 #define ALGORITHMS_0_QUICKSORT_H
 
 
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 
 

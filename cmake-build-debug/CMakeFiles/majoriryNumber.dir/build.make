@@ -56,27 +56,27 @@ include CMakeFiles/majoriryNumber.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/majoriryNumber.dir/flags.make
 
-CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj: CMakeFiles/majoriryNumber.dir/flags.make
-CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj: ../majoriryNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\majoriryNumber.dir\majoriryNumber.cpp.obj -c D:\Code\Algorithms\majoriryNumber.cpp
+CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj: CMakeFiles/majoriryNumber.dir/flags.make
+CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj: ../00-TopFrequency/majoriryNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\majoriryNumber.dir\00-TopFrequency\majoriryNumber.cpp.obj -c D:\Code\Algorithms\00-TopFrequency\majoriryNumber.cpp
 
-CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.i"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\majoriryNumber.cpp > CMakeFiles\majoriryNumber.dir\majoriryNumber.cpp.i
+CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.i"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\00-TopFrequency\majoriryNumber.cpp > CMakeFiles\majoriryNumber.dir\00-TopFrequency\majoriryNumber.cpp.i
 
-CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.s"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\majoriryNumber.cpp -o CMakeFiles\majoriryNumber.dir\majoriryNumber.cpp.s
+CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.s"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\00-TopFrequency\majoriryNumber.cpp -o CMakeFiles\majoriryNumber.dir\00-TopFrequency\majoriryNumber.cpp.s
 
 # Object files for target majoriryNumber
 majoriryNumber_OBJECTS = \
-"CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj"
+"CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj"
 
 # External object files for target majoriryNumber
 majoriryNumber_EXTERNAL_OBJECTS =
 
-majoriryNumber.exe: CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj
+majoriryNumber.exe: CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj
 majoriryNumber.exe: CMakeFiles/majoriryNumber.dir/build.make
 majoriryNumber.exe: CMakeFiles/majoriryNumber.dir/linklibs.rsp
 majoriryNumber.exe: CMakeFiles/majoriryNumber.dir/objects1.rsp

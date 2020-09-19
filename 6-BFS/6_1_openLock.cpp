@@ -1,7 +1,7 @@
 //
 // Created by wbzhang on 2020/7/14.
 //
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 
 int openLock(vector<string>& deadends, string target) {

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj"
+  "CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.obj"
   "minSubArrayLen.pdb"
   "minSubArrayLen.exe"
   "minSubArrayLen.exe.manifest"

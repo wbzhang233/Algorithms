@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/Algorithms/myStrStr.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/myStrStr.dir/myStrStr.cpp.obj"
+  "D:/Code/Algorithms/2-arrayAndString/myStrStr.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

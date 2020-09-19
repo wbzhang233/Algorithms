@@ -2,7 +2,7 @@
 // Created by wbzhang on 2020/7/24.
 //
 
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 vector<vector<int>> res;
 vector<int> setToVec(unordered_set<int> set){

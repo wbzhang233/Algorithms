@@ -1,5 +1,5 @@
 //#include "removeDuplicates.h"
-#include "commonHeaders.h"
+#include "common/commonHeaders.h"
 
 int main() {
         //ListNode *ls1=new ListNode(1);

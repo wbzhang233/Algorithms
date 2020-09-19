@@ -7,16 +7,16 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(defineMacro 0-define/defineMacro.cpp)
 
 # 1-算法基础题
-add_executable(Algorithms main.cpp mergeTwoLists.h commonHeaders.h 2-rotate.cpp 1-removeDuplicates.cpp
-        3-reverseString.cpp 5-histgram.cpp 4-reverseVowels.cpp 6-singleNumber.cpp
-        7-maxProfit.cpp 8-twosum.cpp 9-duplicates.cpp 10-maxIntersection.cpp )
+#add_executable(Algorithms main.cpp mergeTwoLists.h common/commonHeaders.h 2-rotate.cpp 1-removeDuplicates.cpp
+#        3-reverseString.cpp 5-histgram.cpp 4-reverseVowels.cpp 6-singleNumber.cpp
+#        7-maxProfit.cpp 8-twosum.cpp 9-duplicates.cpp 10-maxIntersection.cpp )
 # 2-队列和栈
 add_executable(queueAndStack ./1-QueueAndStack/MyQueue.cpp 1-QueueAndStack/1-circularQueue.h)
 add_executable(largestRectangleArea ./13-stack/mono_stack.cpp)
 
 # 3-数组和字符串
 add_executable(arrayAndString 2-arrayAndString/arrayTest.cpp 2-arrayAndString/2-spiralOrder.h)
-add_executable(minSubArrayLen minSubArrayLen.cpp)
+add_executable(minSubArrayLen 2-arrayAndString/minSubArrayLen.cpp)
 add_executable(stringDecoder ./2-arrayAndString/stringDecoder.cpp) #字符串解码
 add_executable(rotateImage ./2-arrayAndString/rotateImage.cpp)
 
@@ -26,12 +26,12 @@ add_executable(hashmap 3-Hashmap/hashmap.cpp 3-Hashmap/1-isHappy.cpp 3-Hashmap/2
 # 5-sort
 add_executable(sort ./0-sorting/sort.cpp ./0-sorting/sortCommon.h)
 add_executable(countInversion ./0-sorting/countInversion.cpp) # 逆序对的个数，归并排序
-add_executable(mergeSortTest ./0-sorting/mytest.cpp)
+add_executable(sortTest 0-sorting/sortTest.cpp)
+
 
 #
-add_executable(test1 test1.cpp)
-add_executable(test2 tetst2.cpp)
-
+add_executable(test1 2-arrayAndString/test1.cpp)
+add_executable(test2 2-arrayAndString/tetst2.cpp)
 
 ## 6-二叉树
 add_executable(preInConstruct ./3-Tree/preInConstruct.cpp)
@@ -61,8 +61,10 @@ add_executable(eightQueen ./7-Backtrack/eightQueen.cpp)
 add_executable(divingBoards ./8-Recursion/divideBoards.cpp)
 
 # 11.heap
-add_executable(heapTest ./10-Heap/heapTest.cpp)
+add_executable(heapsort 10-Heap/heapsort.cpp)
+add_executable(heapsortSTL 10-Heap/heapsortSTL.cpp)
 add_executable(priority_queue ./10-Heap/priority_queue.cpp)
+add_executable(heapSortClassTest 10-Heap/heapSortClassTest.cpp)
 
 # 11-dfs
 add_executable(uniquePath ./11-dfs/uniquePath.cpp)
@@ -82,13 +84,12 @@ add_executable(findDigit ./swordToOffer/findDigit.cpp)
 # 最长子串
 add_executable(lengthOfLongestSubstring ./swordToOffer/lengthOfLongestSubstring.cpp)
 # 丑数
-add_executable(uglyNumber uglyNumber.cpp)
-
+add_executable(uglyNumber swordToOffer/uglyNumber.cpp)
 
 ##其他高频面试题
 add_executable(reverseList 00-TopFrequency/reverseList.cpp) #反转链表
 add_executable(cycleList 00-TopFrequency/cycleList.cpp) #链表是否存在环
 add_executable(removeElement 00-TopFrequency/removeElement.cpp) #删除链表中的元素
-add_executable(myStrStr ./myStrStr.cpp) #子串
+add_executable(myStrStr ./2-arrayAndString/myStrStr.cpp) #子串
 add_executable(palindromStr ./12-dp/palindromStr.cpp) #回文子串
-add_executable(majoriryNumber ./majoriryNumber.cpp) # 主元素
+add_executable(majoriryNumber ./00-TopFrequency/majoriryNumber.cpp) # 主元素

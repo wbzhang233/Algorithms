@@ -56,27 +56,27 @@ include CMakeFiles/myStrStr.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/myStrStr.dir/flags.make
 
-CMakeFiles/myStrStr.dir/myStrStr.cpp.obj: CMakeFiles/myStrStr.dir/flags.make
-CMakeFiles/myStrStr.dir/myStrStr.cpp.obj: ../myStrStr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myStrStr.dir/myStrStr.cpp.obj"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\myStrStr.dir\myStrStr.cpp.obj -c D:\Code\Algorithms\myStrStr.cpp
+CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj: CMakeFiles/myStrStr.dir/flags.make
+CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj: ../2-arrayAndString/myStrStr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\myStrStr.dir\2-arrayAndString\myStrStr.cpp.obj -c D:\Code\Algorithms\2-arrayAndString\myStrStr.cpp
 
-CMakeFiles/myStrStr.dir/myStrStr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myStrStr.dir/myStrStr.cpp.i"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\myStrStr.cpp > CMakeFiles\myStrStr.dir\myStrStr.cpp.i
+CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.i"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\2-arrayAndString\myStrStr.cpp > CMakeFiles\myStrStr.dir\2-arrayAndString\myStrStr.cpp.i
 
-CMakeFiles/myStrStr.dir/myStrStr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myStrStr.dir/myStrStr.cpp.s"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\myStrStr.cpp -o CMakeFiles\myStrStr.dir\myStrStr.cpp.s
+CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.s"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\2-arrayAndString\myStrStr.cpp -o CMakeFiles\myStrStr.dir\2-arrayAndString\myStrStr.cpp.s
 
 # Object files for target myStrStr
 myStrStr_OBJECTS = \
-"CMakeFiles/myStrStr.dir/myStrStr.cpp.obj"
+"CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj"
 
 # External object files for target myStrStr
 myStrStr_EXTERNAL_OBJECTS =
 
-myStrStr.exe: CMakeFiles/myStrStr.dir/myStrStr.cpp.obj
+myStrStr.exe: CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj
 myStrStr.exe: CMakeFiles/myStrStr.dir/build.make
 myStrStr.exe: CMakeFiles/myStrStr.dir/linklibs.rsp
 myStrStr.exe: CMakeFiles/myStrStr.dir/objects1.rsp

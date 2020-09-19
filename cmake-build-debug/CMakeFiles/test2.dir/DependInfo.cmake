@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/Algorithms/tetst2.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/test2.dir/tetst2.cpp.obj"
+  "D:/Code/Algorithms/2-arrayAndString/tetst2.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

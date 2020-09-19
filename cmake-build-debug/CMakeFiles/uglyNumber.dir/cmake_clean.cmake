@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj"
+  "CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj"
   "uglyNumber.pdb"
   "uglyNumber.exe"
   "uglyNumber.exe.manifest"

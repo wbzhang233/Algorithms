@@ -22,13 +22,13 @@ int main(){
 //    coutNums(nums);
 
     /// 计算逆序对的个数
-    int n=11;
-    vector<int> nums(n);
-    for(int i=0;i<n;i++) nums[i]=n-i;
-        coutNums(nums);
-    int invCount = countInversion(nums);
-        coutNums(nums);
-    cout<<invCount<<endl;
+//    int n=11;
+//    vector<int> nums(n);
+//    for(int i=0;i<n;i++) nums[i]=n-i;
+//        coutNums(nums);
+//    int invCount = countInversion(nums);
+//        coutNums(nums);
+//    cout<<invCount<<endl;
 
     return 0;
 }

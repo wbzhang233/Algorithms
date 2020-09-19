@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj"
+  "CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj"
   "majoriryNumber.pdb"
   "majoriryNumber.exe"
   "majoriryNumber.exe.manifest"

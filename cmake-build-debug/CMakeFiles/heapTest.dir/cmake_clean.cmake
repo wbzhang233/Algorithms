@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/heapTest.dir/10-Heap/heapTest.cpp.obj"
+  "CMakeFiles/heapTest.dir/10-Heap/heapsortSTL.cpp.obj"
   "heapTest.pdb"
   "heapTest.exe"
   "heapTest.exe.manifest"

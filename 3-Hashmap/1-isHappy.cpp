@@ -2,7 +2,7 @@
 // Created by wbzhang on 2020/3/13.
 //
 
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 bool isHappy(int n) {
     //可以变为1说明，该数有且仅有一位为1，其余均为0，即该数字只能为1或者10的指数的整数

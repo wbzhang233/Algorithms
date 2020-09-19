@@ -2,7 +2,7 @@
 // Created by wbzhang on 2020/3/11.
 //
 
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 #include "2-spiralOrder.h"
 
 auto lambda = [](auto x, auto y) {return x + y;};

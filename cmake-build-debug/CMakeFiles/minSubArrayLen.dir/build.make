@@ -56,27 +56,27 @@ include CMakeFiles/minSubArrayLen.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/minSubArrayLen.dir/flags.make
 
-CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj: CMakeFiles/minSubArrayLen.dir/flags.make
-CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj: ../minSubArrayLen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\minSubArrayLen.dir\minSubArrayLen.cpp.obj -c D:\Code\Algorithms\minSubArrayLen.cpp
+CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.obj: CMakeFiles/minSubArrayLen.dir/flags.make
+CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.obj: ../2-arrayAndString/minSubArrayLen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.obj"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\minSubArrayLen.dir\2-arrayAndString\minSubArrayLen.cpp.obj -c D:\Code\Algorithms\2-arrayAndString\minSubArrayLen.cpp
 
-CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.i"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\minSubArrayLen.cpp > CMakeFiles\minSubArrayLen.dir\minSubArrayLen.cpp.i
+CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.i"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\Algorithms\2-arrayAndString\minSubArrayLen.cpp > CMakeFiles\minSubArrayLen.dir\2-arrayAndString\minSubArrayLen.cpp.i
 
-CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.s"
-	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\minSubArrayLen.cpp -o CMakeFiles\minSubArrayLen.dir\minSubArrayLen.cpp.s
+CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.s"
+	D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\Algorithms\2-arrayAndString\minSubArrayLen.cpp -o CMakeFiles\minSubArrayLen.dir\2-arrayAndString\minSubArrayLen.cpp.s
 
 # Object files for target minSubArrayLen
 minSubArrayLen_OBJECTS = \
-"CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj"
+"CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.obj"
 
 # External object files for target minSubArrayLen
 minSubArrayLen_EXTERNAL_OBJECTS =
 
-minSubArrayLen.exe: CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj
+minSubArrayLen.exe: CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.obj
 minSubArrayLen.exe: CMakeFiles/minSubArrayLen.dir/build.make
 minSubArrayLen.exe: CMakeFiles/minSubArrayLen.dir/linklibs.rsp
 minSubArrayLen.exe: CMakeFiles/minSubArrayLen.dir/objects1.rsp

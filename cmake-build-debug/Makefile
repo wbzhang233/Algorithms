@@ -136,30 +136,43 @@ queueAndStack/fast:
 .PHONY : queueAndStack/fast
 
 #=============================================================================
-# Target rules for targets named mergeSortTest
+# Target rules for targets named majoriryNumber
 
 # Build rule for target.
-mergeSortTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 mergeSortTest
-.PHONY : mergeSortTest
+majoriryNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 majoriryNumber
+.PHONY : majoriryNumber
 
 # fast build rule for target.
-mergeSortTest/fast:
-	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/build
-.PHONY : mergeSortTest/fast
+majoriryNumber/fast:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
+.PHONY : majoriryNumber/fast
 
 #=============================================================================
-# Target rules for targets named Algorithms
+# Target rules for targets named heapSortClassTest
 
 # Build rule for target.
-Algorithms: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Algorithms
-.PHONY : Algorithms
+heapSortClassTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 heapSortClassTest
+.PHONY : heapSortClassTest
 
 # fast build rule for target.
-Algorithms/fast:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/build
-.PHONY : Algorithms/fast
+heapSortClassTest/fast:
+	$(MAKE) -f CMakeFiles\heapSortClassTest.dir\build.make CMakeFiles/heapSortClassTest.dir/build
+.PHONY : heapSortClassTest/fast
+
+#=============================================================================
+# Target rules for targets named sort
+
+# Build rule for target.
+sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sort
+.PHONY : sort
+
+# fast build rule for target.
+sort/fast:
+	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
+.PHONY : sort/fast
 
 #=============================================================================
 # Target rules for targets named largestRectangleArea
@@ -292,32 +305,6 @@ hashmap/fast:
 .PHONY : hashmap/fast
 
 #=============================================================================
-# Target rules for targets named majoriryNumber
-
-# Build rule for target.
-majoriryNumber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 majoriryNumber
-.PHONY : majoriryNumber
-
-# fast build rule for target.
-majoriryNumber/fast:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
-.PHONY : majoriryNumber/fast
-
-#=============================================================================
-# Target rules for targets named sort
-
-# Build rule for target.
-sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 sort
-.PHONY : sort
-
-# fast build rule for target.
-sort/fast:
-	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
-.PHONY : sort/fast
-
-#=============================================================================
 # Target rules for targets named countInversion
 
 # Build rule for target.
@@ -329,6 +316,19 @@ countInversion: cmake_check_build_system
 countInversion/fast:
 	$(MAKE) -f CMakeFiles\countInversion.dir\build.make CMakeFiles/countInversion.dir/build
 .PHONY : countInversion/fast
+
+#=============================================================================
+# Target rules for targets named sortTest
+
+# Build rule for target.
+sortTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sortTest
+.PHONY : sortTest
+
+# fast build rule for target.
+sortTest/fast:
+	$(MAKE) -f CMakeFiles\sortTest.dir\build.make CMakeFiles/sortTest.dir/build
+.PHONY : sortTest/fast
 
 #=============================================================================
 # Target rules for targets named test1
@@ -461,19 +461,6 @@ existPath1/fast:
 .PHONY : existPath1/fast
 
 #=============================================================================
-# Target rules for targets named heapTest
-
-# Build rule for target.
-heapTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 heapTest
-.PHONY : heapTest
-
-# fast build rule for target.
-heapTest/fast:
-	$(MAKE) -f CMakeFiles\heapTest.dir\build.make CMakeFiles/heapTest.dir/build
-.PHONY : heapTest/fast
-
-#=============================================================================
 # Target rules for targets named existPath2
 
 # Build rule for target.
@@ -498,6 +485,45 @@ divingBoards: cmake_check_build_system
 divingBoards/fast:
 	$(MAKE) -f CMakeFiles\divingBoards.dir\build.make CMakeFiles/divingBoards.dir/build
 .PHONY : divingBoards/fast
+
+#=============================================================================
+# Target rules for targets named heapsort
+
+# Build rule for target.
+heapsort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 heapsort
+.PHONY : heapsort
+
+# fast build rule for target.
+heapsort/fast:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/build
+.PHONY : heapsort/fast
+
+#=============================================================================
+# Target rules for targets named mapsum
+
+# Build rule for target.
+mapsum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 mapsum
+.PHONY : mapsum
+
+# fast build rule for target.
+mapsum/fast:
+	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/build
+.PHONY : mapsum/fast
+
+#=============================================================================
+# Target rules for targets named heapsortSTL
+
+# Build rule for target.
+heapsortSTL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 heapsortSTL
+.PHONY : heapsortSTL
+
+# fast build rule for target.
+heapsortSTL/fast:
+	$(MAKE) -f CMakeFiles\heapsortSTL.dir\build.make CMakeFiles/heapsortSTL.dir/build
+.PHONY : heapsortSTL/fast
 
 #=============================================================================
 # Target rules for targets named prim
@@ -537,19 +563,6 @@ unionFind: cmake_check_build_system
 unionFind/fast:
 	$(MAKE) -f CMakeFiles\unionFind.dir\build.make CMakeFiles/unionFind.dir/build
 .PHONY : unionFind/fast
-
-#=============================================================================
-# Target rules for targets named mapsum
-
-# Build rule for target.
-mapsum: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 mapsum
-.PHONY : mapsum
-
-# fast build rule for target.
-mapsum/fast:
-	$(MAKE) -f CMakeFiles\mapsum.dir\build.make CMakeFiles/mapsum.dir/build
-.PHONY : mapsum/fast
 
 #=============================================================================
 # Target rules for targets named uglyNumber
@@ -670,33 +683,6 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\countInversion.dir\build.make CMakeFiles/countInversion.dir/0-sorting/countInversion.cpp.s
 .PHONY : 0-sorting/countInversion.cpp.s
 
-0-sorting/mytest.obj: 0-sorting/mytest.cpp.obj
-
-.PHONY : 0-sorting/mytest.obj
-
-# target to build an object file
-0-sorting/mytest.cpp.obj:
-	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/0-sorting/mytest.cpp.obj
-.PHONY : 0-sorting/mytest.cpp.obj
-
-0-sorting/mytest.i: 0-sorting/mytest.cpp.i
-
-.PHONY : 0-sorting/mytest.i
-
-# target to preprocess a source file
-0-sorting/mytest.cpp.i:
-	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/0-sorting/mytest.cpp.i
-.PHONY : 0-sorting/mytest.cpp.i
-
-0-sorting/mytest.s: 0-sorting/mytest.cpp.s
-
-.PHONY : 0-sorting/mytest.s
-
-# target to generate assembly for a file
-0-sorting/mytest.cpp.s:
-	$(MAKE) -f CMakeFiles\mergeSortTest.dir\build.make CMakeFiles/mergeSortTest.dir/0-sorting/mytest.cpp.s
-.PHONY : 0-sorting/mytest.cpp.s
-
 0-sorting/sort.obj: 0-sorting/sort.cpp.obj
 
 .PHONY : 0-sorting/sort.obj
@@ -724,6 +710,33 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/0-sorting/sort.cpp.s
 .PHONY : 0-sorting/sort.cpp.s
 
+0-sorting/sortTest.obj: 0-sorting/sortTest.cpp.obj
+
+.PHONY : 0-sorting/sortTest.obj
+
+# target to build an object file
+0-sorting/sortTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\sortTest.dir\build.make CMakeFiles/sortTest.dir/0-sorting/sortTest.cpp.obj
+.PHONY : 0-sorting/sortTest.cpp.obj
+
+0-sorting/sortTest.i: 0-sorting/sortTest.cpp.i
+
+.PHONY : 0-sorting/sortTest.i
+
+# target to preprocess a source file
+0-sorting/sortTest.cpp.i:
+	$(MAKE) -f CMakeFiles\sortTest.dir\build.make CMakeFiles/sortTest.dir/0-sorting/sortTest.cpp.i
+.PHONY : 0-sorting/sortTest.cpp.i
+
+0-sorting/sortTest.s: 0-sorting/sortTest.cpp.s
+
+.PHONY : 0-sorting/sortTest.s
+
+# target to generate assembly for a file
+0-sorting/sortTest.cpp.s:
+	$(MAKE) -f CMakeFiles\sortTest.dir\build.make CMakeFiles/sortTest.dir/0-sorting/sortTest.cpp.s
+.PHONY : 0-sorting/sortTest.cpp.s
+
 00-TopFrequency/cycleList.obj: 00-TopFrequency/cycleList.cpp.obj
 
 .PHONY : 00-TopFrequency/cycleList.obj
@@ -750,6 +763,33 @@ palindromStr/fast:
 00-TopFrequency/cycleList.cpp.s:
 	$(MAKE) -f CMakeFiles\cycleList.dir\build.make CMakeFiles/cycleList.dir/00-TopFrequency/cycleList.cpp.s
 .PHONY : 00-TopFrequency/cycleList.cpp.s
+
+00-TopFrequency/majoriryNumber.obj: 00-TopFrequency/majoriryNumber.cpp.obj
+
+.PHONY : 00-TopFrequency/majoriryNumber.obj
+
+# target to build an object file
+00-TopFrequency/majoriryNumber.cpp.obj:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj
+.PHONY : 00-TopFrequency/majoriryNumber.cpp.obj
+
+00-TopFrequency/majoriryNumber.i: 00-TopFrequency/majoriryNumber.cpp.i
+
+.PHONY : 00-TopFrequency/majoriryNumber.i
+
+# target to preprocess a source file
+00-TopFrequency/majoriryNumber.cpp.i:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.i
+.PHONY : 00-TopFrequency/majoriryNumber.cpp.i
+
+00-TopFrequency/majoriryNumber.s: 00-TopFrequency/majoriryNumber.cpp.s
+
+.PHONY : 00-TopFrequency/majoriryNumber.s
+
+# target to generate assembly for a file
+00-TopFrequency/majoriryNumber.cpp.s:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.s
+.PHONY : 00-TopFrequency/majoriryNumber.cpp.s
 
 00-TopFrequency/removeElement.obj: 00-TopFrequency/removeElement.cpp.obj
 
@@ -832,59 +872,86 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\queueAndStack.dir\build.make CMakeFiles/queueAndStack.dir/1-QueueAndStack/MyQueue.cpp.s
 .PHONY : 1-QueueAndStack/MyQueue.cpp.s
 
-1-removeDuplicates.obj: 1-removeDuplicates.cpp.obj
+10-Heap/heapSortClassTest.obj: 10-Heap/heapSortClassTest.cpp.obj
 
-.PHONY : 1-removeDuplicates.obj
-
-# target to build an object file
-1-removeDuplicates.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/1-removeDuplicates.cpp.obj
-.PHONY : 1-removeDuplicates.cpp.obj
-
-1-removeDuplicates.i: 1-removeDuplicates.cpp.i
-
-.PHONY : 1-removeDuplicates.i
-
-# target to preprocess a source file
-1-removeDuplicates.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/1-removeDuplicates.cpp.i
-.PHONY : 1-removeDuplicates.cpp.i
-
-1-removeDuplicates.s: 1-removeDuplicates.cpp.s
-
-.PHONY : 1-removeDuplicates.s
-
-# target to generate assembly for a file
-1-removeDuplicates.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/1-removeDuplicates.cpp.s
-.PHONY : 1-removeDuplicates.cpp.s
-
-10-Heap/heapTest.obj: 10-Heap/heapTest.cpp.obj
-
-.PHONY : 10-Heap/heapTest.obj
+.PHONY : 10-Heap/heapSortClassTest.obj
 
 # target to build an object file
-10-Heap/heapTest.cpp.obj:
-	$(MAKE) -f CMakeFiles\heapTest.dir\build.make CMakeFiles/heapTest.dir/10-Heap/heapTest.cpp.obj
-.PHONY : 10-Heap/heapTest.cpp.obj
+10-Heap/heapSortClassTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\heapSortClassTest.dir\build.make CMakeFiles/heapSortClassTest.dir/10-Heap/heapSortClassTest.cpp.obj
+.PHONY : 10-Heap/heapSortClassTest.cpp.obj
 
-10-Heap/heapTest.i: 10-Heap/heapTest.cpp.i
+10-Heap/heapSortClassTest.i: 10-Heap/heapSortClassTest.cpp.i
 
-.PHONY : 10-Heap/heapTest.i
+.PHONY : 10-Heap/heapSortClassTest.i
 
 # target to preprocess a source file
-10-Heap/heapTest.cpp.i:
-	$(MAKE) -f CMakeFiles\heapTest.dir\build.make CMakeFiles/heapTest.dir/10-Heap/heapTest.cpp.i
-.PHONY : 10-Heap/heapTest.cpp.i
+10-Heap/heapSortClassTest.cpp.i:
+	$(MAKE) -f CMakeFiles\heapSortClassTest.dir\build.make CMakeFiles/heapSortClassTest.dir/10-Heap/heapSortClassTest.cpp.i
+.PHONY : 10-Heap/heapSortClassTest.cpp.i
 
-10-Heap/heapTest.s: 10-Heap/heapTest.cpp.s
+10-Heap/heapSortClassTest.s: 10-Heap/heapSortClassTest.cpp.s
 
-.PHONY : 10-Heap/heapTest.s
+.PHONY : 10-Heap/heapSortClassTest.s
 
 # target to generate assembly for a file
-10-Heap/heapTest.cpp.s:
-	$(MAKE) -f CMakeFiles\heapTest.dir\build.make CMakeFiles/heapTest.dir/10-Heap/heapTest.cpp.s
-.PHONY : 10-Heap/heapTest.cpp.s
+10-Heap/heapSortClassTest.cpp.s:
+	$(MAKE) -f CMakeFiles\heapSortClassTest.dir\build.make CMakeFiles/heapSortClassTest.dir/10-Heap/heapSortClassTest.cpp.s
+.PHONY : 10-Heap/heapSortClassTest.cpp.s
+
+10-Heap/heapsort.obj: 10-Heap/heapsort.cpp.obj
+
+.PHONY : 10-Heap/heapsort.obj
+
+# target to build an object file
+10-Heap/heapsort.cpp.obj:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/10-Heap/heapsort.cpp.obj
+.PHONY : 10-Heap/heapsort.cpp.obj
+
+10-Heap/heapsort.i: 10-Heap/heapsort.cpp.i
+
+.PHONY : 10-Heap/heapsort.i
+
+# target to preprocess a source file
+10-Heap/heapsort.cpp.i:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/10-Heap/heapsort.cpp.i
+.PHONY : 10-Heap/heapsort.cpp.i
+
+10-Heap/heapsort.s: 10-Heap/heapsort.cpp.s
+
+.PHONY : 10-Heap/heapsort.s
+
+# target to generate assembly for a file
+10-Heap/heapsort.cpp.s:
+	$(MAKE) -f CMakeFiles\heapsort.dir\build.make CMakeFiles/heapsort.dir/10-Heap/heapsort.cpp.s
+.PHONY : 10-Heap/heapsort.cpp.s
+
+10-Heap/heapsortSTL.obj: 10-Heap/heapsortSTL.cpp.obj
+
+.PHONY : 10-Heap/heapsortSTL.obj
+
+# target to build an object file
+10-Heap/heapsortSTL.cpp.obj:
+	$(MAKE) -f CMakeFiles\heapsortSTL.dir\build.make CMakeFiles/heapsortSTL.dir/10-Heap/heapsortSTL.cpp.obj
+.PHONY : 10-Heap/heapsortSTL.cpp.obj
+
+10-Heap/heapsortSTL.i: 10-Heap/heapsortSTL.cpp.i
+
+.PHONY : 10-Heap/heapsortSTL.i
+
+# target to preprocess a source file
+10-Heap/heapsortSTL.cpp.i:
+	$(MAKE) -f CMakeFiles\heapsortSTL.dir\build.make CMakeFiles/heapsortSTL.dir/10-Heap/heapsortSTL.cpp.i
+.PHONY : 10-Heap/heapsortSTL.cpp.i
+
+10-Heap/heapsortSTL.s: 10-Heap/heapsortSTL.cpp.s
+
+.PHONY : 10-Heap/heapsortSTL.s
+
+# target to generate assembly for a file
+10-Heap/heapsortSTL.cpp.s:
+	$(MAKE) -f CMakeFiles\heapsortSTL.dir\build.make CMakeFiles/heapsortSTL.dir/10-Heap/heapsortSTL.cpp.s
+.PHONY : 10-Heap/heapsortSTL.cpp.s
 
 10-Heap/priority_queue.obj: 10-Heap/priority_queue.cpp.obj
 
@@ -912,33 +979,6 @@ palindromStr/fast:
 10-Heap/priority_queue.cpp.s:
 	$(MAKE) -f CMakeFiles\priority_queue.dir\build.make CMakeFiles/priority_queue.dir/10-Heap/priority_queue.cpp.s
 .PHONY : 10-Heap/priority_queue.cpp.s
-
-10-maxIntersection.obj: 10-maxIntersection.cpp.obj
-
-.PHONY : 10-maxIntersection.obj
-
-# target to build an object file
-10-maxIntersection.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/10-maxIntersection.cpp.obj
-.PHONY : 10-maxIntersection.cpp.obj
-
-10-maxIntersection.i: 10-maxIntersection.cpp.i
-
-.PHONY : 10-maxIntersection.i
-
-# target to preprocess a source file
-10-maxIntersection.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/10-maxIntersection.cpp.i
-.PHONY : 10-maxIntersection.cpp.i
-
-10-maxIntersection.s: 10-maxIntersection.cpp.s
-
-.PHONY : 10-maxIntersection.s
-
-# target to generate assembly for a file
-10-maxIntersection.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/10-maxIntersection.cpp.s
-.PHONY : 10-maxIntersection.cpp.s
 
 11-dfs/uniquePath.obj: 11-dfs/uniquePath.cpp.obj
 
@@ -1129,6 +1169,60 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\arrayAndString.dir\build.make CMakeFiles/arrayAndString.dir/2-arrayAndString/arrayTest.cpp.s
 .PHONY : 2-arrayAndString/arrayTest.cpp.s
 
+2-arrayAndString/minSubArrayLen.obj: 2-arrayAndString/minSubArrayLen.cpp.obj
+
+.PHONY : 2-arrayAndString/minSubArrayLen.obj
+
+# target to build an object file
+2-arrayAndString/minSubArrayLen.cpp.obj:
+	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.obj
+.PHONY : 2-arrayAndString/minSubArrayLen.cpp.obj
+
+2-arrayAndString/minSubArrayLen.i: 2-arrayAndString/minSubArrayLen.cpp.i
+
+.PHONY : 2-arrayAndString/minSubArrayLen.i
+
+# target to preprocess a source file
+2-arrayAndString/minSubArrayLen.cpp.i:
+	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.i
+.PHONY : 2-arrayAndString/minSubArrayLen.cpp.i
+
+2-arrayAndString/minSubArrayLen.s: 2-arrayAndString/minSubArrayLen.cpp.s
+
+.PHONY : 2-arrayAndString/minSubArrayLen.s
+
+# target to generate assembly for a file
+2-arrayAndString/minSubArrayLen.cpp.s:
+	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/2-arrayAndString/minSubArrayLen.cpp.s
+.PHONY : 2-arrayAndString/minSubArrayLen.cpp.s
+
+2-arrayAndString/myStrStr.obj: 2-arrayAndString/myStrStr.cpp.obj
+
+.PHONY : 2-arrayAndString/myStrStr.obj
+
+# target to build an object file
+2-arrayAndString/myStrStr.cpp.obj:
+	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj
+.PHONY : 2-arrayAndString/myStrStr.cpp.obj
+
+2-arrayAndString/myStrStr.i: 2-arrayAndString/myStrStr.cpp.i
+
+.PHONY : 2-arrayAndString/myStrStr.i
+
+# target to preprocess a source file
+2-arrayAndString/myStrStr.cpp.i:
+	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.i
+.PHONY : 2-arrayAndString/myStrStr.cpp.i
+
+2-arrayAndString/myStrStr.s: 2-arrayAndString/myStrStr.cpp.s
+
+.PHONY : 2-arrayAndString/myStrStr.s
+
+# target to generate assembly for a file
+2-arrayAndString/myStrStr.cpp.s:
+	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.s
+.PHONY : 2-arrayAndString/myStrStr.cpp.s
+
 2-arrayAndString/rotateImage.obj: 2-arrayAndString/rotateImage.cpp.obj
 
 .PHONY : 2-arrayAndString/rotateImage.obj
@@ -1183,32 +1277,59 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\stringDecoder.dir\build.make CMakeFiles/stringDecoder.dir/2-arrayAndString/stringDecoder.cpp.s
 .PHONY : 2-arrayAndString/stringDecoder.cpp.s
 
-2-rotate.obj: 2-rotate.cpp.obj
+2-arrayAndString/test1.obj: 2-arrayAndString/test1.cpp.obj
 
-.PHONY : 2-rotate.obj
+.PHONY : 2-arrayAndString/test1.obj
 
 # target to build an object file
-2-rotate.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/2-rotate.cpp.obj
-.PHONY : 2-rotate.cpp.obj
+2-arrayAndString/test1.cpp.obj:
+	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/2-arrayAndString/test1.cpp.obj
+.PHONY : 2-arrayAndString/test1.cpp.obj
 
-2-rotate.i: 2-rotate.cpp.i
+2-arrayAndString/test1.i: 2-arrayAndString/test1.cpp.i
 
-.PHONY : 2-rotate.i
+.PHONY : 2-arrayAndString/test1.i
 
 # target to preprocess a source file
-2-rotate.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/2-rotate.cpp.i
-.PHONY : 2-rotate.cpp.i
+2-arrayAndString/test1.cpp.i:
+	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/2-arrayAndString/test1.cpp.i
+.PHONY : 2-arrayAndString/test1.cpp.i
 
-2-rotate.s: 2-rotate.cpp.s
+2-arrayAndString/test1.s: 2-arrayAndString/test1.cpp.s
 
-.PHONY : 2-rotate.s
+.PHONY : 2-arrayAndString/test1.s
 
 # target to generate assembly for a file
-2-rotate.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/2-rotate.cpp.s
-.PHONY : 2-rotate.cpp.s
+2-arrayAndString/test1.cpp.s:
+	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/2-arrayAndString/test1.cpp.s
+.PHONY : 2-arrayAndString/test1.cpp.s
+
+2-arrayAndString/tetst2.obj: 2-arrayAndString/tetst2.cpp.obj
+
+.PHONY : 2-arrayAndString/tetst2.obj
+
+# target to build an object file
+2-arrayAndString/tetst2.cpp.obj:
+	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.obj
+.PHONY : 2-arrayAndString/tetst2.cpp.obj
+
+2-arrayAndString/tetst2.i: 2-arrayAndString/tetst2.cpp.i
+
+.PHONY : 2-arrayAndString/tetst2.i
+
+# target to preprocess a source file
+2-arrayAndString/tetst2.cpp.i:
+	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.i
+.PHONY : 2-arrayAndString/tetst2.cpp.i
+
+2-arrayAndString/tetst2.s: 2-arrayAndString/tetst2.cpp.s
+
+.PHONY : 2-arrayAndString/tetst2.s
+
+# target to generate assembly for a file
+2-arrayAndString/tetst2.cpp.s:
+	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/2-arrayAndString/tetst2.cpp.s
+.PHONY : 2-arrayAndString/tetst2.cpp.s
 
 3-Hashmap/1-isHappy.obj: 3-Hashmap/1-isHappy.cpp.obj
 
@@ -1318,33 +1439,6 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\preInConstruct.dir\build.make CMakeFiles/preInConstruct.dir/3-Tree/preInConstruct.cpp.s
 .PHONY : 3-Tree/preInConstruct.cpp.s
 
-3-reverseString.obj: 3-reverseString.cpp.obj
-
-.PHONY : 3-reverseString.obj
-
-# target to build an object file
-3-reverseString.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/3-reverseString.cpp.obj
-.PHONY : 3-reverseString.cpp.obj
-
-3-reverseString.i: 3-reverseString.cpp.i
-
-.PHONY : 3-reverseString.i
-
-# target to preprocess a source file
-3-reverseString.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/3-reverseString.cpp.i
-.PHONY : 3-reverseString.cpp.i
-
-3-reverseString.s: 3-reverseString.cpp.s
-
-.PHONY : 3-reverseString.s
-
-# target to generate assembly for a file
-3-reverseString.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/3-reverseString.cpp.s
-.PHONY : 3-reverseString.cpp.s
-
 4-STL/stl_usage.obj: 4-STL/stl_usage.cpp.obj
 
 .PHONY : 4-STL/stl_usage.obj
@@ -1372,60 +1466,6 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\stl_usage.dir\build.make CMakeFiles/stl_usage.dir/4-STL/stl_usage.cpp.s
 .PHONY : 4-STL/stl_usage.cpp.s
 
-4-reverseVowels.obj: 4-reverseVowels.cpp.obj
-
-.PHONY : 4-reverseVowels.obj
-
-# target to build an object file
-4-reverseVowels.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/4-reverseVowels.cpp.obj
-.PHONY : 4-reverseVowels.cpp.obj
-
-4-reverseVowels.i: 4-reverseVowels.cpp.i
-
-.PHONY : 4-reverseVowels.i
-
-# target to preprocess a source file
-4-reverseVowels.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/4-reverseVowels.cpp.i
-.PHONY : 4-reverseVowels.cpp.i
-
-4-reverseVowels.s: 4-reverseVowels.cpp.s
-
-.PHONY : 4-reverseVowels.s
-
-# target to generate assembly for a file
-4-reverseVowels.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/4-reverseVowels.cpp.s
-.PHONY : 4-reverseVowels.cpp.s
-
-5-histgram.obj: 5-histgram.cpp.obj
-
-.PHONY : 5-histgram.obj
-
-# target to build an object file
-5-histgram.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/5-histgram.cpp.obj
-.PHONY : 5-histgram.cpp.obj
-
-5-histgram.i: 5-histgram.cpp.i
-
-.PHONY : 5-histgram.i
-
-# target to preprocess a source file
-5-histgram.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/5-histgram.cpp.i
-.PHONY : 5-histgram.cpp.i
-
-5-histgram.s: 5-histgram.cpp.s
-
-.PHONY : 5-histgram.s
-
-# target to generate assembly for a file
-5-histgram.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/5-histgram.cpp.s
-.PHONY : 5-histgram.cpp.s
-
 6-BFS/6_1_openLock.obj: 6-BFS/6_1_openLock.cpp.obj
 
 .PHONY : 6-BFS/6_1_openLock.obj
@@ -1452,33 +1492,6 @@ palindromStr/fast:
 6-BFS/6_1_openLock.cpp.s:
 	$(MAKE) -f CMakeFiles\openlock.dir\build.make CMakeFiles/openlock.dir/6-BFS/6_1_openLock.cpp.s
 .PHONY : 6-BFS/6_1_openLock.cpp.s
-
-6-singleNumber.obj: 6-singleNumber.cpp.obj
-
-.PHONY : 6-singleNumber.obj
-
-# target to build an object file
-6-singleNumber.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/6-singleNumber.cpp.obj
-.PHONY : 6-singleNumber.cpp.obj
-
-6-singleNumber.i: 6-singleNumber.cpp.i
-
-.PHONY : 6-singleNumber.i
-
-# target to preprocess a source file
-6-singleNumber.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/6-singleNumber.cpp.i
-.PHONY : 6-singleNumber.cpp.i
-
-6-singleNumber.s: 6-singleNumber.cpp.s
-
-.PHONY : 6-singleNumber.s
-
-# target to generate assembly for a file
-6-singleNumber.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/6-singleNumber.cpp.s
-.PHONY : 6-singleNumber.cpp.s
 
 7-Backtrack/combine.obj: 7-Backtrack/combine.cpp.obj
 
@@ -1642,33 +1655,6 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\permute.dir\build.make CMakeFiles/permute.dir/7-Backtrack/permute.cpp.s
 .PHONY : 7-Backtrack/permute.cpp.s
 
-7-maxProfit.obj: 7-maxProfit.cpp.obj
-
-.PHONY : 7-maxProfit.obj
-
-# target to build an object file
-7-maxProfit.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/7-maxProfit.cpp.obj
-.PHONY : 7-maxProfit.cpp.obj
-
-7-maxProfit.i: 7-maxProfit.cpp.i
-
-.PHONY : 7-maxProfit.i
-
-# target to preprocess a source file
-7-maxProfit.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/7-maxProfit.cpp.i
-.PHONY : 7-maxProfit.cpp.i
-
-7-maxProfit.s: 7-maxProfit.cpp.s
-
-.PHONY : 7-maxProfit.s
-
-# target to generate assembly for a file
-7-maxProfit.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/7-maxProfit.cpp.s
-.PHONY : 7-maxProfit.cpp.s
-
 8-Recursion/divideBoards.obj: 8-Recursion/divideBoards.cpp.obj
 
 .PHONY : 8-Recursion/divideBoards.obj
@@ -1695,168 +1681,6 @@ palindromStr/fast:
 8-Recursion/divideBoards.cpp.s:
 	$(MAKE) -f CMakeFiles\divingBoards.dir\build.make CMakeFiles/divingBoards.dir/8-Recursion/divideBoards.cpp.s
 .PHONY : 8-Recursion/divideBoards.cpp.s
-
-8-twosum.obj: 8-twosum.cpp.obj
-
-.PHONY : 8-twosum.obj
-
-# target to build an object file
-8-twosum.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/8-twosum.cpp.obj
-.PHONY : 8-twosum.cpp.obj
-
-8-twosum.i: 8-twosum.cpp.i
-
-.PHONY : 8-twosum.i
-
-# target to preprocess a source file
-8-twosum.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/8-twosum.cpp.i
-.PHONY : 8-twosum.cpp.i
-
-8-twosum.s: 8-twosum.cpp.s
-
-.PHONY : 8-twosum.s
-
-# target to generate assembly for a file
-8-twosum.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/8-twosum.cpp.s
-.PHONY : 8-twosum.cpp.s
-
-9-duplicates.obj: 9-duplicates.cpp.obj
-
-.PHONY : 9-duplicates.obj
-
-# target to build an object file
-9-duplicates.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/9-duplicates.cpp.obj
-.PHONY : 9-duplicates.cpp.obj
-
-9-duplicates.i: 9-duplicates.cpp.i
-
-.PHONY : 9-duplicates.i
-
-# target to preprocess a source file
-9-duplicates.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/9-duplicates.cpp.i
-.PHONY : 9-duplicates.cpp.i
-
-9-duplicates.s: 9-duplicates.cpp.s
-
-.PHONY : 9-duplicates.s
-
-# target to generate assembly for a file
-9-duplicates.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/9-duplicates.cpp.s
-.PHONY : 9-duplicates.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms.dir\build.make CMakeFiles/Algorithms.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-majoriryNumber.obj: majoriryNumber.cpp.obj
-
-.PHONY : majoriryNumber.obj
-
-# target to build an object file
-majoriryNumber.cpp.obj:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj
-.PHONY : majoriryNumber.cpp.obj
-
-majoriryNumber.i: majoriryNumber.cpp.i
-
-.PHONY : majoriryNumber.i
-
-# target to preprocess a source file
-majoriryNumber.cpp.i:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.i
-.PHONY : majoriryNumber.cpp.i
-
-majoriryNumber.s: majoriryNumber.cpp.s
-
-.PHONY : majoriryNumber.s
-
-# target to generate assembly for a file
-majoriryNumber.cpp.s:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.s
-.PHONY : majoriryNumber.cpp.s
-
-minSubArrayLen.obj: minSubArrayLen.cpp.obj
-
-.PHONY : minSubArrayLen.obj
-
-# target to build an object file
-minSubArrayLen.cpp.obj:
-	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.obj
-.PHONY : minSubArrayLen.cpp.obj
-
-minSubArrayLen.i: minSubArrayLen.cpp.i
-
-.PHONY : minSubArrayLen.i
-
-# target to preprocess a source file
-minSubArrayLen.cpp.i:
-	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.i
-.PHONY : minSubArrayLen.cpp.i
-
-minSubArrayLen.s: minSubArrayLen.cpp.s
-
-.PHONY : minSubArrayLen.s
-
-# target to generate assembly for a file
-minSubArrayLen.cpp.s:
-	$(MAKE) -f CMakeFiles\minSubArrayLen.dir\build.make CMakeFiles/minSubArrayLen.dir/minSubArrayLen.cpp.s
-.PHONY : minSubArrayLen.cpp.s
-
-myStrStr.obj: myStrStr.cpp.obj
-
-.PHONY : myStrStr.obj
-
-# target to build an object file
-myStrStr.cpp.obj:
-	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/myStrStr.cpp.obj
-.PHONY : myStrStr.cpp.obj
-
-myStrStr.i: myStrStr.cpp.i
-
-.PHONY : myStrStr.i
-
-# target to preprocess a source file
-myStrStr.cpp.i:
-	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/myStrStr.cpp.i
-.PHONY : myStrStr.cpp.i
-
-myStrStr.s: myStrStr.cpp.s
-
-.PHONY : myStrStr.s
-
-# target to generate assembly for a file
-myStrStr.cpp.s:
-	$(MAKE) -f CMakeFiles\myStrStr.dir\build.make CMakeFiles/myStrStr.dir/myStrStr.cpp.s
-.PHONY : myStrStr.cpp.s
 
 swordToOffer/findDigit.obj: swordToOffer/findDigit.cpp.obj
 
@@ -1912,86 +1736,32 @@ swordToOffer/lengthOfLongestSubstring.cpp.s:
 	$(MAKE) -f CMakeFiles\lengthOfLongestSubstring.dir\build.make CMakeFiles/lengthOfLongestSubstring.dir/swordToOffer/lengthOfLongestSubstring.cpp.s
 .PHONY : swordToOffer/lengthOfLongestSubstring.cpp.s
 
-test1.obj: test1.cpp.obj
+swordToOffer/uglyNumber.obj: swordToOffer/uglyNumber.cpp.obj
 
-.PHONY : test1.obj
-
-# target to build an object file
-test1.cpp.obj:
-	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/test1.cpp.obj
-.PHONY : test1.cpp.obj
-
-test1.i: test1.cpp.i
-
-.PHONY : test1.i
-
-# target to preprocess a source file
-test1.cpp.i:
-	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/test1.cpp.i
-.PHONY : test1.cpp.i
-
-test1.s: test1.cpp.s
-
-.PHONY : test1.s
-
-# target to generate assembly for a file
-test1.cpp.s:
-	$(MAKE) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/test1.cpp.s
-.PHONY : test1.cpp.s
-
-tetst2.obj: tetst2.cpp.obj
-
-.PHONY : tetst2.obj
+.PHONY : swordToOffer/uglyNumber.obj
 
 # target to build an object file
-tetst2.cpp.obj:
-	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/tetst2.cpp.obj
-.PHONY : tetst2.cpp.obj
+swordToOffer/uglyNumber.cpp.obj:
+	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj
+.PHONY : swordToOffer/uglyNumber.cpp.obj
 
-tetst2.i: tetst2.cpp.i
+swordToOffer/uglyNumber.i: swordToOffer/uglyNumber.cpp.i
 
-.PHONY : tetst2.i
-
-# target to preprocess a source file
-tetst2.cpp.i:
-	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/tetst2.cpp.i
-.PHONY : tetst2.cpp.i
-
-tetst2.s: tetst2.cpp.s
-
-.PHONY : tetst2.s
-
-# target to generate assembly for a file
-tetst2.cpp.s:
-	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/tetst2.cpp.s
-.PHONY : tetst2.cpp.s
-
-uglyNumber.obj: uglyNumber.cpp.obj
-
-.PHONY : uglyNumber.obj
-
-# target to build an object file
-uglyNumber.cpp.obj:
-	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj
-.PHONY : uglyNumber.cpp.obj
-
-uglyNumber.i: uglyNumber.cpp.i
-
-.PHONY : uglyNumber.i
+.PHONY : swordToOffer/uglyNumber.i
 
 # target to preprocess a source file
-uglyNumber.cpp.i:
-	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/uglyNumber.cpp.i
-.PHONY : uglyNumber.cpp.i
+swordToOffer/uglyNumber.cpp.i:
+	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.i
+.PHONY : swordToOffer/uglyNumber.cpp.i
 
-uglyNumber.s: uglyNumber.cpp.s
+swordToOffer/uglyNumber.s: swordToOffer/uglyNumber.cpp.s
 
-.PHONY : uglyNumber.s
+.PHONY : swordToOffer/uglyNumber.s
 
 # target to generate assembly for a file
-uglyNumber.cpp.s:
-	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/uglyNumber.cpp.s
-.PHONY : uglyNumber.cpp.s
+swordToOffer/uglyNumber.cpp.s:
+	$(MAKE) -f CMakeFiles\uglyNumber.dir\build.make CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.s
+.PHONY : swordToOffer/uglyNumber.cpp.s
 
 # Help Target
 help:
@@ -2001,8 +1771,9 @@ help:
 	@echo ... depend
 	@echo ... defineMacro
 	@echo ... queueAndStack
-	@echo ... mergeSortTest
-	@echo ... Algorithms
+	@echo ... majoriryNumber
+	@echo ... heapSortClassTest
+	@echo ... sort
 	@echo ... largestRectangleArea
 	@echo ... eightQueen
 	@echo ... arrayAndString
@@ -2013,9 +1784,8 @@ help:
 	@echo ... lengthOfLongestSubstring
 	@echo ... uniquePath
 	@echo ... hashmap
-	@echo ... majoriryNumber
-	@echo ... sort
 	@echo ... countInversion
+	@echo ... sortTest
 	@echo ... test1
 	@echo ... test2
 	@echo ... preInConstruct
@@ -2027,13 +1797,14 @@ help:
 	@echo ... cycleList
 	@echo ... permute
 	@echo ... existPath1
-	@echo ... heapTest
 	@echo ... existPath2
 	@echo ... divingBoards
+	@echo ... heapsort
+	@echo ... mapsum
+	@echo ... heapsortSTL
 	@echo ... prim
 	@echo ... priority_queue
 	@echo ... unionFind
-	@echo ... mapsum
 	@echo ... uglyNumber
 	@echo ... reverseList
 	@echo ... removeElement
@@ -2046,15 +1817,18 @@ help:
 	@echo ... 0-sorting/countInversion.obj
 	@echo ... 0-sorting/countInversion.i
 	@echo ... 0-sorting/countInversion.s
-	@echo ... 0-sorting/mytest.obj
-	@echo ... 0-sorting/mytest.i
-	@echo ... 0-sorting/mytest.s
 	@echo ... 0-sorting/sort.obj
 	@echo ... 0-sorting/sort.i
 	@echo ... 0-sorting/sort.s
+	@echo ... 0-sorting/sortTest.obj
+	@echo ... 0-sorting/sortTest.i
+	@echo ... 0-sorting/sortTest.s
 	@echo ... 00-TopFrequency/cycleList.obj
 	@echo ... 00-TopFrequency/cycleList.i
 	@echo ... 00-TopFrequency/cycleList.s
+	@echo ... 00-TopFrequency/majoriryNumber.obj
+	@echo ... 00-TopFrequency/majoriryNumber.i
+	@echo ... 00-TopFrequency/majoriryNumber.s
 	@echo ... 00-TopFrequency/removeElement.obj
 	@echo ... 00-TopFrequency/removeElement.i
 	@echo ... 00-TopFrequency/removeElement.s
@@ -2064,18 +1838,18 @@ help:
 	@echo ... 1-QueueAndStack/MyQueue.obj
 	@echo ... 1-QueueAndStack/MyQueue.i
 	@echo ... 1-QueueAndStack/MyQueue.s
-	@echo ... 1-removeDuplicates.obj
-	@echo ... 1-removeDuplicates.i
-	@echo ... 1-removeDuplicates.s
-	@echo ... 10-Heap/heapTest.obj
-	@echo ... 10-Heap/heapTest.i
-	@echo ... 10-Heap/heapTest.s
+	@echo ... 10-Heap/heapSortClassTest.obj
+	@echo ... 10-Heap/heapSortClassTest.i
+	@echo ... 10-Heap/heapSortClassTest.s
+	@echo ... 10-Heap/heapsort.obj
+	@echo ... 10-Heap/heapsort.i
+	@echo ... 10-Heap/heapsort.s
+	@echo ... 10-Heap/heapsortSTL.obj
+	@echo ... 10-Heap/heapsortSTL.i
+	@echo ... 10-Heap/heapsortSTL.s
 	@echo ... 10-Heap/priority_queue.obj
 	@echo ... 10-Heap/priority_queue.i
 	@echo ... 10-Heap/priority_queue.s
-	@echo ... 10-maxIntersection.obj
-	@echo ... 10-maxIntersection.i
-	@echo ... 10-maxIntersection.s
 	@echo ... 11-dfs/uniquePath.obj
 	@echo ... 11-dfs/uniquePath.i
 	@echo ... 11-dfs/uniquePath.s
@@ -2097,15 +1871,24 @@ help:
 	@echo ... 2-arrayAndString/arrayTest.obj
 	@echo ... 2-arrayAndString/arrayTest.i
 	@echo ... 2-arrayAndString/arrayTest.s
+	@echo ... 2-arrayAndString/minSubArrayLen.obj
+	@echo ... 2-arrayAndString/minSubArrayLen.i
+	@echo ... 2-arrayAndString/minSubArrayLen.s
+	@echo ... 2-arrayAndString/myStrStr.obj
+	@echo ... 2-arrayAndString/myStrStr.i
+	@echo ... 2-arrayAndString/myStrStr.s
 	@echo ... 2-arrayAndString/rotateImage.obj
 	@echo ... 2-arrayAndString/rotateImage.i
 	@echo ... 2-arrayAndString/rotateImage.s
 	@echo ... 2-arrayAndString/stringDecoder.obj
 	@echo ... 2-arrayAndString/stringDecoder.i
 	@echo ... 2-arrayAndString/stringDecoder.s
-	@echo ... 2-rotate.obj
-	@echo ... 2-rotate.i
-	@echo ... 2-rotate.s
+	@echo ... 2-arrayAndString/test1.obj
+	@echo ... 2-arrayAndString/test1.i
+	@echo ... 2-arrayAndString/test1.s
+	@echo ... 2-arrayAndString/tetst2.obj
+	@echo ... 2-arrayAndString/tetst2.i
+	@echo ... 2-arrayAndString/tetst2.s
 	@echo ... 3-Hashmap/1-isHappy.obj
 	@echo ... 3-Hashmap/1-isHappy.i
 	@echo ... 3-Hashmap/1-isHappy.s
@@ -2118,24 +1901,12 @@ help:
 	@echo ... 3-Tree/preInConstruct.obj
 	@echo ... 3-Tree/preInConstruct.i
 	@echo ... 3-Tree/preInConstruct.s
-	@echo ... 3-reverseString.obj
-	@echo ... 3-reverseString.i
-	@echo ... 3-reverseString.s
 	@echo ... 4-STL/stl_usage.obj
 	@echo ... 4-STL/stl_usage.i
 	@echo ... 4-STL/stl_usage.s
-	@echo ... 4-reverseVowels.obj
-	@echo ... 4-reverseVowels.i
-	@echo ... 4-reverseVowels.s
-	@echo ... 5-histgram.obj
-	@echo ... 5-histgram.i
-	@echo ... 5-histgram.s
 	@echo ... 6-BFS/6_1_openLock.obj
 	@echo ... 6-BFS/6_1_openLock.i
 	@echo ... 6-BFS/6_1_openLock.s
-	@echo ... 6-singleNumber.obj
-	@echo ... 6-singleNumber.i
-	@echo ... 6-singleNumber.s
 	@echo ... 7-Backtrack/combine.obj
 	@echo ... 7-Backtrack/combine.i
 	@echo ... 7-Backtrack/combine.s
@@ -2154,45 +1925,18 @@ help:
 	@echo ... 7-Backtrack/permute.obj
 	@echo ... 7-Backtrack/permute.i
 	@echo ... 7-Backtrack/permute.s
-	@echo ... 7-maxProfit.obj
-	@echo ... 7-maxProfit.i
-	@echo ... 7-maxProfit.s
 	@echo ... 8-Recursion/divideBoards.obj
 	@echo ... 8-Recursion/divideBoards.i
 	@echo ... 8-Recursion/divideBoards.s
-	@echo ... 8-twosum.obj
-	@echo ... 8-twosum.i
-	@echo ... 8-twosum.s
-	@echo ... 9-duplicates.obj
-	@echo ... 9-duplicates.i
-	@echo ... 9-duplicates.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... majoriryNumber.obj
-	@echo ... majoriryNumber.i
-	@echo ... majoriryNumber.s
-	@echo ... minSubArrayLen.obj
-	@echo ... minSubArrayLen.i
-	@echo ... minSubArrayLen.s
-	@echo ... myStrStr.obj
-	@echo ... myStrStr.i
-	@echo ... myStrStr.s
 	@echo ... swordToOffer/findDigit.obj
 	@echo ... swordToOffer/findDigit.i
 	@echo ... swordToOffer/findDigit.s
 	@echo ... swordToOffer/lengthOfLongestSubstring.obj
 	@echo ... swordToOffer/lengthOfLongestSubstring.i
 	@echo ... swordToOffer/lengthOfLongestSubstring.s
-	@echo ... test1.obj
-	@echo ... test1.i
-	@echo ... test1.s
-	@echo ... tetst2.obj
-	@echo ... tetst2.i
-	@echo ... tetst2.s
-	@echo ... uglyNumber.obj
-	@echo ... uglyNumber.i
-	@echo ... uglyNumber.s
+	@echo ... swordToOffer/uglyNumber.obj
+	@echo ... swordToOffer/uglyNumber.i
+	@echo ... swordToOffer/uglyNumber.s
 .PHONY : help
 
 

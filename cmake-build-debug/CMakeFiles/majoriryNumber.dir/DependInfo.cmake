@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/Algorithms/majoriryNumber.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/majoriryNumber.dir/majoriryNumber.cpp.obj"
+  "D:/Code/Algorithms/00-TopFrequency/majoriryNumber.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/majoriryNumber.dir/00-TopFrequency/majoriryNumber.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

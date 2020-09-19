@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/Algorithms/uglyNumber.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/uglyNumber.dir/uglyNumber.cpp.obj"
+  "D:/Code/Algorithms/swordToOffer/uglyNumber.cpp" "D:/Code/Algorithms/cmake-build-debug/CMakeFiles/uglyNumber.dir/swordToOffer/uglyNumber.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,15 +1,18 @@
-// 字符串排序
-// https://www.nowcoder.com/question/next?pid=21910835&qid=894528&tid=35770036
+//
+// Created by wbzhang on 2020/9/19.
+//
+
+#ifndef ALGORITHMS_MERGESORTSTRING_H
+#define ALGORITHMS_MERGESORTSTRING_H
+
 
 #include <iostream>
 #include <vector>
 #include <string>
-#include <string.h> //strcmp所在函數
 #include <algorithm>
 #include <iomanip>
-
-using namespace std;
-
+#include "../common/common.h"
+#include "sortCommon.h"
 
 class mergeSort1 {
 public:
@@ -73,7 +76,6 @@ public:
 
 };
 
-
 class mergeSort2 {
 public:
 	void Merge(vector<int> &Array, int front, int mid, int end) {
@@ -119,27 +121,4 @@ public:
 
 };
 
-
-int main() {
-	vector<int> nums = {2, 3, 1, 6, 3, 8, 9, 7, 14, 4, 18};
-
-	mergeSort1 mgSort1;
-
-//    vector<int> nums2 = mgSort.mergeSort<int>(nums,0,nums.size()-1);
-    vector<int> nums2;
-    mgSort1.mergeSort<int>(nums,0,nums.size()-1,nums2);
-
-//	mergeSort2 mgSort2;
-//	mgSort2.MergeSort(nums, 0, nums.size());
-
-	for (auto ele:nums) cout << ele << " ";
-
-//    // 二路归并
-//    vector<int> nums1={1,3,5,7,9};
-//    vector<int> nums2={2,4,6,8,0};
-//    vector<int> ans = merge<int>(nums1,nums2);
-//    for(auto ele:ans) cout<<ele<<",";
-
-	system("pause");
-	return 0;
-}
+#endif //ALGORITHMS_MERGESORTSTRING_H

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Code/Algorithms/00-TopFrequency/helperList.h
+iostream
+-
+
+D:/Code/Algorithms/00-TopFrequency/removeElement.cpp
+helperList.h
+D:/Code/Algorithms/00-TopFrequency/helperList.h
+

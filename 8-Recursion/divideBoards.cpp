@@ -2,7 +2,7 @@
 // Created by wbzhang on 2020/7/25.
 //
 
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 vector<int> divingBoard(int shorter, int longer, int k) ;
 

@@ -1,7 +1,7 @@
 //
 // Created by wbzhang on 2020/3/15.
 //
-#include "../commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 bool isIsomorphic(string s, string t) {
     unordered_map<char,char> charMap1;

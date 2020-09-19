@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/myStrStr.dir/myStrStr.cpp.obj"
+  "CMakeFiles/myStrStr.dir/2-arrayAndString/myStrStr.cpp.obj"
   "myStrStr.pdb"
   "myStrStr.exe"
   "myStrStr.exe.manifest"
