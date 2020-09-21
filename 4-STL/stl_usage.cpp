@@ -22,7 +22,7 @@ using namespace std;
 
 int main(){
 
-    list<int> fucklist={1,2,4,6,7,5,3,8,5};
+    list<int> fucklist = {1,2,4,6,7,5,3,8,5};
 //    fucklist.assign(10,10);
     for(auto ele:fucklist){
         cout<<ele<<"\t";

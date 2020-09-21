@@ -11,8 +11,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
 	cout << "hello world" << endl;
 
 	vector<int> nums = {2, 3, 1, 6, 3, 8, 9, 7, 14, 4, 18};
@@ -22,10 +21,10 @@ int main()
 
 //	int nums[] = {2, 3, 1, 6, 3, 8, 9, 7, 14, 4, 18};
 //	int len = sizeof(nums)/ sizeof(*nums);
-	//mergeSort(nums,len); // 归并排序
+//	mergeSort(nums,len); // 归并排序
 
-	for(int i=0;i<len;++i){
-		cout<<nums[i]<<" ";
+	for (int i = 0; i < len; ++i) {
+		cout << nums[i] << " ";
 	}
 
 /*	mergeSort1 mgSort1;

@@ -1,7 +1,7 @@
 //
 // Created by wbzhang on 2020/8/14.
 //
-#include "./common/common.h"
+#include "../common/common.h"
 
 class Solution {
 public:

@@ -17,7 +17,6 @@ TreeNode* findSuccessor(TreeNode* root){
     return findSuccessor(root->left);
 }
 
-
 TreeNode* deleteNode(TreeNode* root, int key) {
     if(root==NULL) return NULL;
     TreeNode* tarNode = searchBST(root,key);

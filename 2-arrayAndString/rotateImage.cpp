@@ -8,7 +8,7 @@ class Solution {
 public:
 
 	virtual void printMatrix(vector<vector<int>>& matrix){
-		printf("zhangqi say I'm good");
+		printf("this is printed...");
 	};
 
 	void rotate(vector<vector<int>>& matrix) {

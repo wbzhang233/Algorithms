@@ -167,17 +167,19 @@ void shellSort(vector<T> nums) {
 
 
 /** 5-归并排序 **/
+
+/*
 template <typename T>
 void merge(T nums[],int low,int mid,int high)
 {
+	// [low,mid-1]和[mid,high]
 	if(low>=high) return;
-	T *temp = new T[high-low+1];
-//	T temp[high-low+1];
+	T temp[high-low+1];
 
-	int p1 = low, p2=mid+1;
+	int p1 = low, p2 = mid;
 	int i = 0;
-	while(p1<=mid || p2<=high){
-		if(p1<=mid && (p2>high ||nums[p1]<nums[p2]) ){
+	while(p1<mid || p2<=high){
+		if(p1<mid && (p2>high ||nums[p1]<nums[p2]) ){
 			temp[i++] = nums[p1++];
 		}else{
 			temp[i++] = nums[p2++];
@@ -193,10 +195,11 @@ template<typename T>
 void mergeSort(T nums[], int len) {
 	if(len<2) return;
 	int mid = len /2;
-	mergeSort(nums,mid);
-	mergeSort(nums+mid+1,mid);
-	merge(nums,0,mid,len);
+	mergeSort(nums,mid); // 下标范围为[0,mid-1]
+	mergeSort(nums+mid,mid); // [mid,len-1]
+	merge(nums,0,mid,len); // [0,mid-1]和[mid,len]
 }
+*/
 
 template<typename T>
 void merge(vector<T> &nums, int low, int mid, int high) {
@@ -305,7 +308,6 @@ void QuickSort(vector<T> &nums) {
 
 /** 7-堆排序 **/
 
-/*
 // 用於将[start,end]闭区间进行堆调整
 void max_heapify(int arr[], int start, int end)
 {
@@ -339,43 +341,6 @@ void heap_sort(int arr[], int len)
 		max_heapify(arr, 0, i - 1);
 	}
 }
-
-// 建堆
-void max_heapify(vector<int> &arr, int start, int end)
-{
-	int dad = start;
-	int son = dad * 2 + 1;
-	while (son <= end)
-	{
-		if (son + 1 <= end && arr[son] < arr[son + 1])
-		{
-			son++;
-		}
-		if (arr[dad] > arr[son])
-			return;
-		else
-		{
-			swap(arr[dad], arr[son]);
-			dad = son;
-			son = dad * 2 + 1;
-		}
-	}
-}
-
-void heap_sort(vector<int> &arr)
-{
-	// 建堆
-	int len = arr.size();
-	for (int i = len / 2 - 1; i >= 0; i--)
-		max_heapify(arr, i, len - 1);
-	// 交换根节点，重新建堆，进行排序
-	for (int i = len - 1; i > 0; i--)
-	{
-		swap(arr[0], arr[i]);
-		max_heapify(arr, 0, i - 1);
-	}
-}
-*/
 
 // 调整[start,end]该闭区间
 template <typename T>

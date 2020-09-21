@@ -20,6 +20,7 @@ public:
         //delete[]copy;
         return count % 1000000007;
     }
+
     long long InversePairsCore(vector<int> &data, vector<int> &copy, int start, int end)
     {
         if (start == end)
