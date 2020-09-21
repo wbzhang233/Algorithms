@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.10)
 project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -20,6 +20,8 @@ add_executable(minSubArrayLen 2-arrayAndString/minSubArrayLen.cpp)
 add_executable(stringDecoder ./2-arrayAndString/stringDecoder.cpp) #字符串解码
 add_executable(rotateImage ./2-arrayAndString/rotateImage.cpp)
 
+
+add_executable(mergeList ./5-Lists/listTest.cpp)
 # 4-hashmap
 add_executable(hashmap 3-Hashmap/hashmap.cpp 3-Hashmap/1-isHappy.cpp 3-Hashmap/2-isIsomorphic.cpp)
 

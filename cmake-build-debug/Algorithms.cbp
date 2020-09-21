@@ -101,132 +101,6 @@
 					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="majoriryNumber">
-				<Option output="D:/Code/Algorithms/cmake-build-debug/majoriryNumber.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 majoriryNumber"/>
-					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="majoriryNumber/fast">
-				<Option output="D:/Code/Algorithms/cmake-build-debug/majoriryNumber.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 majoriryNumber/fast"/>
-					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="heapSortClassTest">
-				<Option output="D:/Code/Algorithms/cmake-build-debug/heapSortClassTest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 heapSortClassTest"/>
-					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="heapSortClassTest/fast">
-				<Option output="D:/Code/Algorithms/cmake-build-debug/heapSortClassTest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 heapSortClassTest/fast"/>
-					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sort">
-				<Option output="D:/Code/Algorithms/cmake-build-debug/sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort"/>
-					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sort/fast">
-				<Option output="D:/Code/Algorithms/cmake-build-debug/sort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort/fast"/>
-					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="largestRectangleArea">
 				<Option output="D:/Code/Algorithms/cmake-build-debug/largestRectangleArea.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
@@ -348,6 +222,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayAndString/fast"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mergeList">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/mergeList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 mergeList"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mergeList/fast">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/mergeList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 mergeList/fast"/>
 					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -642,6 +558,132 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 hashmap/fast"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="majoriryNumber">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/majoriryNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 majoriryNumber"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="majoriryNumber/fast">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/majoriryNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 majoriryNumber/fast"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heapSortClassTest">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/heapSortClassTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 heapSortClassTest"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heapSortClassTest/fast">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/heapSortClassTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 heapSortClassTest/fast"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort"/>
+					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort/fast">
+				<Option output="D:/Code/Algorithms/cmake-build-debug/sort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/JetBrains/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 sort/fast"/>
 					<CompileFile command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/PROGRA~1/JETBRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1819,6 +1861,9 @@
 		</Unit>
 		<Unit filename="D:/Code/Algorithms/4-STL/stl_usage.cpp">
 			<Option target="stl_usage"/>
+		</Unit>
+		<Unit filename="D:/Code/Algorithms/5-Lists/listTest.cpp">
+			<Option target="mergeList"/>
 		</Unit>
 		<Unit filename="D:/Code/Algorithms/6-BFS/6_1_openLock.cpp">
 			<Option target="openlock"/>

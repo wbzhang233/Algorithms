@@ -136,45 +136,6 @@ queueAndStack/fast:
 .PHONY : queueAndStack/fast
 
 #=============================================================================
-# Target rules for targets named majoriryNumber
-
-# Build rule for target.
-majoriryNumber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 majoriryNumber
-.PHONY : majoriryNumber
-
-# fast build rule for target.
-majoriryNumber/fast:
-	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
-.PHONY : majoriryNumber/fast
-
-#=============================================================================
-# Target rules for targets named heapSortClassTest
-
-# Build rule for target.
-heapSortClassTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 heapSortClassTest
-.PHONY : heapSortClassTest
-
-# fast build rule for target.
-heapSortClassTest/fast:
-	$(MAKE) -f CMakeFiles\heapSortClassTest.dir\build.make CMakeFiles/heapSortClassTest.dir/build
-.PHONY : heapSortClassTest/fast
-
-#=============================================================================
-# Target rules for targets named sort
-
-# Build rule for target.
-sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 sort
-.PHONY : sort
-
-# fast build rule for target.
-sort/fast:
-	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
-.PHONY : sort/fast
-
-#=============================================================================
 # Target rules for targets named largestRectangleArea
 
 # Build rule for target.
@@ -212,6 +173,19 @@ arrayAndString: cmake_check_build_system
 arrayAndString/fast:
 	$(MAKE) -f CMakeFiles\arrayAndString.dir\build.make CMakeFiles/arrayAndString.dir/build
 .PHONY : arrayAndString/fast
+
+#=============================================================================
+# Target rules for targets named mergeList
+
+# Build rule for target.
+mergeList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 mergeList
+.PHONY : mergeList
+
+# fast build rule for target.
+mergeList/fast:
+	$(MAKE) -f CMakeFiles\mergeList.dir\build.make CMakeFiles/mergeList.dir/build
+.PHONY : mergeList/fast
 
 #=============================================================================
 # Target rules for targets named rotateImage
@@ -303,6 +277,45 @@ hashmap: cmake_check_build_system
 hashmap/fast:
 	$(MAKE) -f CMakeFiles\hashmap.dir\build.make CMakeFiles/hashmap.dir/build
 .PHONY : hashmap/fast
+
+#=============================================================================
+# Target rules for targets named majoriryNumber
+
+# Build rule for target.
+majoriryNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 majoriryNumber
+.PHONY : majoriryNumber
+
+# fast build rule for target.
+majoriryNumber/fast:
+	$(MAKE) -f CMakeFiles\majoriryNumber.dir\build.make CMakeFiles/majoriryNumber.dir/build
+.PHONY : majoriryNumber/fast
+
+#=============================================================================
+# Target rules for targets named heapSortClassTest
+
+# Build rule for target.
+heapSortClassTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 heapSortClassTest
+.PHONY : heapSortClassTest
+
+# fast build rule for target.
+heapSortClassTest/fast:
+	$(MAKE) -f CMakeFiles\heapSortClassTest.dir\build.make CMakeFiles/heapSortClassTest.dir/build
+.PHONY : heapSortClassTest/fast
+
+#=============================================================================
+# Target rules for targets named sort
+
+# Build rule for target.
+sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sort
+.PHONY : sort
+
+# fast build rule for target.
+sort/fast:
+	$(MAKE) -f CMakeFiles\sort.dir\build.make CMakeFiles/sort.dir/build
+.PHONY : sort/fast
 
 #=============================================================================
 # Target rules for targets named countInversion
@@ -1466,6 +1479,33 @@ palindromStr/fast:
 	$(MAKE) -f CMakeFiles\stl_usage.dir\build.make CMakeFiles/stl_usage.dir/4-STL/stl_usage.cpp.s
 .PHONY : 4-STL/stl_usage.cpp.s
 
+5-Lists/listTest.obj: 5-Lists/listTest.cpp.obj
+
+.PHONY : 5-Lists/listTest.obj
+
+# target to build an object file
+5-Lists/listTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\mergeList.dir\build.make CMakeFiles/mergeList.dir/5-Lists/listTest.cpp.obj
+.PHONY : 5-Lists/listTest.cpp.obj
+
+5-Lists/listTest.i: 5-Lists/listTest.cpp.i
+
+.PHONY : 5-Lists/listTest.i
+
+# target to preprocess a source file
+5-Lists/listTest.cpp.i:
+	$(MAKE) -f CMakeFiles\mergeList.dir\build.make CMakeFiles/mergeList.dir/5-Lists/listTest.cpp.i
+.PHONY : 5-Lists/listTest.cpp.i
+
+5-Lists/listTest.s: 5-Lists/listTest.cpp.s
+
+.PHONY : 5-Lists/listTest.s
+
+# target to generate assembly for a file
+5-Lists/listTest.cpp.s:
+	$(MAKE) -f CMakeFiles\mergeList.dir\build.make CMakeFiles/mergeList.dir/5-Lists/listTest.cpp.s
+.PHONY : 5-Lists/listTest.cpp.s
+
 6-BFS/6_1_openLock.obj: 6-BFS/6_1_openLock.cpp.obj
 
 .PHONY : 6-BFS/6_1_openLock.obj
@@ -1771,12 +1811,10 @@ help:
 	@echo ... depend
 	@echo ... defineMacro
 	@echo ... queueAndStack
-	@echo ... majoriryNumber
-	@echo ... heapSortClassTest
-	@echo ... sort
 	@echo ... largestRectangleArea
 	@echo ... eightQueen
 	@echo ... arrayAndString
+	@echo ... mergeList
 	@echo ... rotateImage
 	@echo ... findDigit
 	@echo ... minSubArrayLen
@@ -1784,6 +1822,9 @@ help:
 	@echo ... lengthOfLongestSubstring
 	@echo ... uniquePath
 	@echo ... hashmap
+	@echo ... majoriryNumber
+	@echo ... heapSortClassTest
+	@echo ... sort
 	@echo ... countInversion
 	@echo ... sortTest
 	@echo ... test1
@@ -1904,6 +1945,9 @@ help:
 	@echo ... 4-STL/stl_usage.obj
 	@echo ... 4-STL/stl_usage.i
 	@echo ... 4-STL/stl_usage.s
+	@echo ... 5-Lists/listTest.obj
+	@echo ... 5-Lists/listTest.i
+	@echo ... 5-Lists/listTest.s
 	@echo ... 6-BFS/6_1_openLock.obj
 	@echo ... 6-BFS/6_1_openLock.i
 	@echo ... 6-BFS/6_1_openLock.s

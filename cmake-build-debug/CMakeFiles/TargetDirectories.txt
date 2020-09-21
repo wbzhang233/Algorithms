@@ -1,11 +1,9 @@
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/defineMacro.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/queueAndStack.dir
-D:/Code/Algorithms/cmake-build-debug/CMakeFiles/majoriryNumber.dir
-D:/Code/Algorithms/cmake-build-debug/CMakeFiles/heapSortClassTest.dir
-D:/Code/Algorithms/cmake-build-debug/CMakeFiles/sort.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/largestRectangleArea.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/eightQueen.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/arrayAndString.dir
+D:/Code/Algorithms/cmake-build-debug/CMakeFiles/mergeList.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/rotateImage.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/findDigit.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/minSubArrayLen.dir
@@ -13,6 +11,9 @@ D:/Code/Algorithms/cmake-build-debug/CMakeFiles/stringDecoder.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/lengthOfLongestSubstring.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/uniquePath.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/hashmap.dir
+D:/Code/Algorithms/cmake-build-debug/CMakeFiles/majoriryNumber.dir
+D:/Code/Algorithms/cmake-build-debug/CMakeFiles/heapSortClassTest.dir
+D:/Code/Algorithms/cmake-build-debug/CMakeFiles/sort.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/countInversion.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/sortTest.dir
 D:/Code/Algorithms/cmake-build-debug/CMakeFiles/test1.dir
