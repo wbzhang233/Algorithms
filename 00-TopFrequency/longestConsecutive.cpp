@@ -43,8 +43,3 @@ public:
 
 
 
-int main()
-{
-
-
-}

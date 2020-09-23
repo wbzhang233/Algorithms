@@ -2,7 +2,7 @@
 // Created by wbzhang on 2020/2/28.
 //
 
-#include "commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 int singleNumber(vector<int>& nums) {
     // 异或方法

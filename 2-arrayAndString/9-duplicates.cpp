@@ -2,7 +2,7 @@
 // Created by wbzhang on 2020/3/4.
 //
 
-#include "commonHeaders.h"
+#include "../common/commonHeaders.h"
 
 bool containsDuplicate(vector<int>& nums) {
     if(nums.size()<2) return false;
