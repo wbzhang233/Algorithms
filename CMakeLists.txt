@@ -29,7 +29,7 @@ add_executable(hashmap 3-Hashmap/hashmap.cpp 3-Hashmap/1-isHappy.cpp 3-Hashmap/2
 add_executable(sort ./0-sorting/sort.cpp ./0-sorting/sortCommon.h)
 add_executable(countInversion ./0-sorting/countInversion.cpp) # 逆序对的个数，归并排序
 add_executable(sortTest 0-sorting/sortTest.cpp)
-
+add_executable(mergeSort ./0-sorting/sort/mergeSort.cpp)
 
 #
 add_executable(test1 2-arrayAndString/test1.cpp)
@@ -89,9 +89,12 @@ add_executable(lengthOfLongestSubstring ./swordToOffer/lengthOfLongestSubstring.
 add_executable(uglyNumber swordToOffer/uglyNumber.cpp)
 
 ##其他高频面试题
-add_executable(reverseList 00-TopFrequency/reverseList.cpp) #反转链表
-add_executable(cycleList 00-TopFrequency/cycleList.cpp) #链表是否存在环
-add_executable(removeElement 00-TopFrequency/removeElement.cpp) #删除链表中的元素
+add_executable(reverseList 00-TopFrequency/LinkedList/reverseList.cpp) #反转链表
+add_executable(cycleList 00-TopFrequency/LinkedList/cycleList.cpp) #链表是否存在环
+add_executable(removeElement 00-TopFrequency/LinkedList/removeElement.cpp) #删除链表中的元素
 add_executable(myStrStr ./2-arrayAndString/myStrStr.cpp) #子串
 add_executable(palindromStr ./12-dp/palindromStr.cpp) #回文子串
 add_executable(majoriryNumber ./00-TopFrequency/majoriryNumber.cpp) # 主元素
+add_executable(deleteDuplicateslIST 5-Lists/deleteDuplicates.cpp) # 删除有序链表中的重复元素
+add_executable(topKFrequency 00-TopFrequency/topFrequency/topKFrequency.cpp) # top-k 问题
+add_executable(findKthLargest 00-TopFrequency/topFrequency/findKthLargest.cpp) #第K个最大元素

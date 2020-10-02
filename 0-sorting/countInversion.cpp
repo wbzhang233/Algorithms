@@ -59,19 +59,65 @@ public:
 };
 
 
+class Solution2 {
+public:
+
+	void merge(int &res,vector<int> &nums,int l,int mid,int h){
+		vector<int> helper;
+		int li=l,ri=mid+1;
+		while(li<=mid || ri<=h){
+			if(li<=mid && ( ri>h || nums[li]<nums[ri]) ){
+				helper.push_back(nums[li++]);
+			}else{
+				res+= 1;
+				helper.push_back(nums[ri++]);
+			}
+		}
+
+		for(int low = l,i=0;low<=h;++low){
+			nums[low] = helper[i++];
+		}
+
+	}
+
+	void mergeSortR(int &res,vector<int> &nums,int l,int h)
+	{
+		if(l>=h) return;
+		int mid = l+(h-l)/2;
+		mergeSortR(res,nums,l,mid);
+		mergeSortR(res,nums,mid+1,h);
+		merge(res,nums,l,mid,h);
+
+	}
+
+	int reversePairs(vector<int>& nums) {
+		int res = 0;
+		mergeSortR(res,nums,0,nums.size()-1);
+		for(auto ele:nums){
+			cout<<ele<<",";
+		}
+		return res;
+	}
+};
+
+
 int main()
 {
-    Solution s;
-    vector<int> input;
-    int n;
-    cin >> n;
-    for (int i = 0; i < n; i++)
-    {
-        int number;
-        cin >> number;
-        input.push_back(number);
-    }
-    int count=s.InversePairs(input);
-    cout << count << endl;
+    Solution2 s;
+//    vector<int> input;
+//    int n;
+//    cin >> n;
+//    for (int i = 0; i < n; i++)
+//    {
+//        int number;
+//        cin >> number;
+//        input.push_back(number);
+
+    vector<int> input = {6,3,4,7,1};
+    int count=s.reversePairs(input);
+    cout <<endl<< "res: "<<count << endl;
     return 0;
 }
+
+//5
+//6 3 4 7 1

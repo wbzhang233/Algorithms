@@ -62,7 +62,7 @@ using namespace std;
 //     quickSort(strs, pivot + 1, hi);
 // }
 
-// // 2-歸併排序
+ // 2-歸併排序
 // vector<string> merge(vector<string> partA, vector<string> partB)
 // {
 //     vector<string> ans;
@@ -80,10 +80,10 @@ using namespace std;
 //             ans.push_back(partA[ind1++]);
 //         }
 //     }
-
+//
 //     return ans;
 // }
-
+//
 // // 雙閉區間
 // vector<string> mergeSort(vector<string> strs, int lo, int hi)
 // {
@@ -91,7 +91,7 @@ using namespace std;
 //     int pivot = lo + (hi-lo)>>1;
 //     vector<string> left = mergeSort(strs, lo, pivot);
 //     vector<string> right = mergeSort(strs, pivot + 1, hi);
-
+//
 //     // 合並
 //     return merge(left, right);
 // }
@@ -186,9 +186,11 @@ vector<T> mergeSort(vector<T> strs,int low,int high)
 
 
 int main(){
-    vector<int> nums ={2,3,1,6,3,8,9,7,14,4,18};
+//    vector<int> nums ={2,3,1,6,3,8,9,7,14,4,18};
 
-    mergeSort<int>(nums,0,nums.size()-1);
-    for(auto ele:nums) cout<<ele<<" ";
+    vector<string> strs = {"abd","dfg","fggfh","dafgd","dghgfh","yujg","ghj","fgsdh","etrgc","fgfhtae"};
+
+    mergeSort(strs,0,strs.size()-1);
+    for(auto ele:strs) cout<<ele<<" ";
     return 0;
 }

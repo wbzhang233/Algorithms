@@ -172,14 +172,14 @@ void shellSort(vector<T> nums) {
 template <typename T>
 void merge(T nums[],int low,int mid,int high)
 {
-	// [low,mid-1]和[mid,high]
+	// [low,mid]和[mid+1,high]
 	if(low>=high) return;
 	T temp[high-low+1];
 
-	int p1 = low, p2 = mid;
+	int p1 = low, p2 = mid+1;
 	int i = 0;
-	while(p1<mid || p2<=high){
-		if(p1<mid && (p2>high ||nums[p1]<nums[p2]) ){
+	while(p1<=mid || p2<=high){
+		if(p1<=mid && (p2>high ||nums[p1]<nums[p2]) ){
 			temp[i++] = nums[p1++];
 		}else{
 			temp[i++] = nums[p2++];
@@ -195,8 +195,8 @@ template<typename T>
 void mergeSort(T nums[], int len) {
 	if(len<2) return;
 	int mid = len /2;
-	mergeSort(nums,mid); // 下标范围为[0,mid-1]
-	mergeSort(nums+mid,mid); // [mid,len-1]
+	mergeSort(nums,mid); // 下标范围为[0,mid]
+	mergeSort(nums+mid+1,mid); // [mid+1,len-1]
 	merge(nums,0,mid,len); // [0,mid-1]和[mid,len]
 }
 */
@@ -231,11 +231,6 @@ void mergeSort(vector<T> &nums, int low, int high) {
 }
 
 /** 6-快速排序 **/
-template<typename T>
-void quickSort(T nums[], int len) {
-
-}
-
 // 摘自Runoob
 // 分割函数
 template<typename T>

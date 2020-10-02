@@ -13,6 +13,7 @@ public:
 		memset(next, 0, sizeof(next));
 	}
 
+	// 插入单词
 	void insert(string word) {
 		Trie* node = this;
 		for (char c : word) {
@@ -24,6 +25,7 @@ public:
 		node->isEnd = true;
 	}
 
+	// 查询单词
 	bool search(string word) {
 		Trie* node = this;
 		for (char c : word) {
@@ -35,6 +37,7 @@ public:
 		return node->isEnd;
 	}
 
+	// 根据前缀查询
 	bool startsWith(string prefix) {
 		Trie* node = this;
 		for (char c : prefix) {

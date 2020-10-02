@@ -33,6 +33,11 @@ void rprintList(ListNode* head)
 	cout<<head->val<<" ";
 }
 
-
+// 获取链表长度
+int getListLength(ListNode* head)
+{
+	if(!head) return 0;
+	return getListLength(head->next)+1;
+}
 
 #endif //ALGORITHMS_HELPERLIST_H

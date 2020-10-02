@@ -16,8 +16,8 @@ int main() {
 
 	vector<int> nums = {2, 3, 1, 6, 3, 8, 9, 7, 14, 4, 18};
 	int len = nums.size();
-//	mergeSort(nums, 0, len - 1); //归并排序
-	heapsort(nums); //堆排序
+	mergeSort(nums, 0, len - 1); //归并排序
+//	heapsort(nums); //堆排序
 
 //	int nums[] = {2, 3, 1, 6, 3, 8, 9, 7, 14, 4, 18};
 //	int len = sizeof(nums)/ sizeof(*nums);
