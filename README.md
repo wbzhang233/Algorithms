@@ -9,7 +9,11 @@
 
 ## 2020.09.20
 
+<<<<<<< HEAD
 ![刷题进展](./images/README/刷题记录.png)
+=======
+![1600505907841](./images/README/1600505907841.png)
+>>>>>>> 70e362a1babcec7b31395d2511b5f6d981a730fd
 
 
 
@@ -23,7 +27,7 @@
 >
 > 我的刷题到此为止：2020.9.23，终。
 
-![1600505907841](images/README/leetcode刷题总结.png)
+![leetcode刷题总结](./images/README/leetcode刷题总结.png)
 
 
 
@@ -45,3 +49,8 @@
 
 
 # 我的移动书架
+<<<<<<< HEAD
+=======
+
+![1600827406691](./images/README/1600827406691.png)
+>>>>>>> 70e362a1babcec7b31395d2511b5f6d981a730fd
