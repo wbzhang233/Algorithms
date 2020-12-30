@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\stringtest.dir/objects.a
-D:\PROGRA~1\JETBRA~1\mingw64\bin\ar.exe cr CMakeFiles\stringtest.dir/objects.a @CMakeFiles\stringtest.dir\objects1.rsp
-D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\stringtest.dir/objects.a -Wl,--no-whole-archive  -o stringtest.exe -Wl,--out-implib,libstringtest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\stringtest.dir\linklibs.rsp

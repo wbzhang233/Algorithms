@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\rotate.dir/objects.a
-D:\PROGRA~1\JETBRA~1\mingw64\bin\ar.exe cr CMakeFiles\rotate.dir/objects.a @CMakeFiles\rotate.dir\objects1.rsp
-D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\rotate.dir/objects.a -Wl,--no-whole-archive  -o rotate.exe -Wl,--out-implib,librotate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rotate.dir\linklibs.rsp

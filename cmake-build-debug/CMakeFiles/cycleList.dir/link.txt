@@ -1,3 +1,0 @@
-"D:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cycleList.dir/objects.a
-D:\PROGRA~1\JETBRA~1\mingw64\bin\ar.exe cr CMakeFiles\cycleList.dir/objects.a @CMakeFiles\cycleList.dir\objects1.rsp
-D:\PROGRA~1\JETBRA~1\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\cycleList.dir/objects.a -Wl,--no-whole-archive  -o cycleList.exe -Wl,--out-implib,libcycleList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cycleList.dir\linklibs.rsp
